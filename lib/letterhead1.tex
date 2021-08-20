@@ -1,0 +1,82 @@
+\documentclass[a4paper,11pt]{article}
+
+\usepackage[a4paper,lmargin=20mm,rmargin=50mm,tmargin=20mm,bmargin=53mm]{geometry}
+\usepackage{calc}
+\usepackage{amsmath,xltxtra,fontspec,xunicode}
+\usepackage{titlesec}
+
+
+\usepackage{xeCJK}
+\XeTeXlinebreaklocale "zh" 
+\XeTeXlinebreakskip = 0pt plus 1pt 
+
+% =========================================
+\usepackage{listings}
+\usepackage{pbox}
+\usepackage{longtable}
+\usepackage{tabu}
+\usepackage{makecell}
+\usepackage{multirow}
+\usepackage{multicol}
+\usepackage{fancyhdr}
+\setmainfont{Erato}
+\setromanfont{Erato}
+\setsansfont{Seravek}
+\setmonofont{JetBrains Mono}
+\setCJKmainfont{Noto Serif SC}
+\setCJKromanfont{Noto Serif SC}
+\setCJKsansfont{Noto Sans SC}
+\setCJKmonofont{Noto Sans SC}
+\author{Neruthes}
+% =========================================
+
+% =========================================
+% START NERUTHES CONFIG
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{5pt}
+\setlength{\baselineskip}{19pt}
+% END NERUTHES CONFIG
+% =========================================
+
+% =========================================
+% START COMMON STYLESHEET
+\titleformat*{\section}{\Large\bfseries\sffamily}
+% \titleformat*{\subsection}{\large\bfseries\sffamily}
+% \titleformat*{\subsubsection}{\bfseries\sffamily}
+% Table
+\tabulinesep=2.2mm
+% \renewcommand\theadalign{l}
+\renewcommand\theadfont{\sffamily\bfseries}
+% Font Size
+
+% END COMMON STYLESHEET
+% =========================================
+
+\input{/home/neruthes/DEV/ntexcollection/lib/_common.tex}
+
+
+\setlength{\headheight}{30mm}
+
+\graphicspath{ {/home/neruthes/DEV/ntexcollection/pic/} }
+
+\fancypagestyle{plain}{
+    \renewcommand{\headrulewidth}{0.4pt}
+    \renewcommand{\footrulewidth}{0.4pt}
+    \fancyhf{}
+    \fancyheadoffset[r]{30mm}
+    \fancyfootoffset[r]{30mm}
+    \lhead{
+        \ttfamily
+        {\Large\bfseries NERUTHES} \\
+        \vspace{6pt}
+        {\small CB0A BC77 5644 0D12 915E 3F25 AFB3 373F 5200 DF38} \\
+    }
+    \chead{}
+    \rhead{
+        % \includegraphics[width=24mm, height=24mm]{neruthes-grandseal-core.png}
+        \includegraphics[width=24mm, height=24mm]{neruthes-force-circle-for-square.png}
+    }
+    \lfoot{\vspace{2pt}\ttfamily\small https://neruthes.xyz}
+    \cfoot{}
+    \rfoot{\vspace{2pt}\ttfamily\small i@neruthes.xyz}
+}
