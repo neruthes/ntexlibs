@@ -1,12 +1,10 @@
-\documentclass[a4paper,11pt]{article}
-
 \usepackage[a4paper,lmargin=20mm,rmargin=50mm,tmargin=20mm,bmargin=53mm]{geometry}
 \usepackage{calc}
 \usepackage{amsmath,xltxtra,fontspec,xunicode}
 \usepackage{titlesec}
 
 
-\usepackage{xeCJK}
+\usepackage[PunctStyle=plain]{xeCJK}
 \XeTeXlinebreaklocale "zh" 
 \XeTeXlinebreakskip = 0pt plus 1pt 
 
@@ -19,8 +17,9 @@
 \usepackage{multirow}
 \usepackage{multicol}
 \usepackage{fancyhdr}
-\setmainfont{Erato}
-\setromanfont{Erato}
+\usepackage{ragged2e}
+\setmainfont{Charter}
+\setromanfont{Charter}
 \setsansfont{Seravek}
 \setmonofont{JetBrains Mono}
 \setCJKmainfont{Noto Serif SC}
@@ -52,16 +51,18 @@
 % END COMMON STYLESHEET
 % =========================================
 
-\input{/home/neruthes/DEV/ntexcollection/lib/_common.tex}
+\input{/home/neruthes/DEV/ntexlibs/lib/_common.tex}
 
 
 \setlength{\headheight}{30mm}
 
-\graphicspath{ {/home/neruthes/DEV/ntexcollection/pic/} }
+\graphicspath{ {/home/neruthes/DEV/ntexlibs/pic/} }
 
 \fancypagestyle{plain}{
-    \renewcommand{\headrulewidth}{0.4pt}
+    % \renewcommand{\headrulewidth}{0.4pt}
     \renewcommand{\footrulewidth}{0.4pt}
+    \renewcommand{\headrulewidth}{0pt}
+    % \renewcommand{\footrulewidth}{0pt}
     \fancyhf{}
     \fancyheadoffset[r]{30mm}
     \fancyfootoffset[r]{30mm}
