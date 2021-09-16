@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200px" height="200px" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>NeopariaEmblem/Generic-Black</title>
+    <desc>Created with Sketch.</desc>
+    <g id="NeopariaEmblem/Generic-Black" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="NeopComm-Icon" transform="translate(15.000000, 15.000000)" stroke="#000000" stroke-width="8">
+            <polyline id="1" points="55 55 85 0 115 55"></polyline>
+            <polyline id="1" transform="translate(125.658640, 44.341360) rotate(45.000000) translate(-125.658640, -44.341360) " points="95.6586399 71.8413601 125.65864 16.8413601 155.65864 71.8413601"></polyline>
+            <polyline id="1" transform="translate(142.500000, 85.000000) rotate(90.000000) translate(-142.500000, -85.000000) " points="112.5 112.5 142.5 57.5 172.5 112.5"></polyline>
+            <polyline id="1" transform="translate(125.658640, 125.658640) rotate(135.000000) translate(-125.658640, -125.658640) " points="95.6586399 153.15864 125.65864 98.1586399 155.65864 153.15864"></polyline>
+            <polyline id="1" transform="translate(85.000000, 142.500000) rotate(180.000000) translate(-85.000000, -142.500000) " points="55 170 85 115 115 170"></polyline>
+            <polyline id="1" transform="translate(44.341360, 125.658640) rotate(225.000000) translate(-44.341360, -125.658640) " points="14.3413601 153.15864 44.3413601 98.1586399 74.3413601 153.15864"></polyline>
+            <polyline id="1" transform="translate(27.500000, 85.000000) rotate(270.000000) translate(-27.500000, -85.000000) " points="-2.5 112.5 27.5 57.5 57.5 112.5"></polyline>
+            <polyline id="1" transform="translate(44.341360, 44.341360) rotate(315.000000) translate(-44.341360, -44.341360) " points="14.3413601 71.8413601 44.3413601 16.8413601 74.3413601 71.8413601"></polyline>
+        </g>
+    </g>
+</svg>

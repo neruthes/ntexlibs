@@ -1,0 +1,5 @@
+### Colorize
+convert N-PageBorder.eps -colorize 0,25,55 N-PageBorder.blue.eps
+
+### Tiling
+convert -size 9600x9600 tile:EP6-black.png EP6-black.tile.png

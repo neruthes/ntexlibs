@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="240px" height="240px" viewBox="0 0 240 240" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>EP6-black</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="48" height="48"></rect>
+        <rect id="path-3" x="0" y="-1" width="48" height="48"></rect>
+        <rect id="path-5" x="0" y="0" width="48" height="48"></rect>
+        <rect id="path-7" x="0" y="-1" width="48" height="48"></rect>
+        <rect id="path-9" x="0" y="0" width="48" height="48"></rect>
+        <rect id="path-11" x="0" y="-1" width="48" height="48"></rect>
+        <rect id="path-13" x="0" y="0" width="48" height="48"></rect>
+        <rect id="path-15" x="0" y="-1" width="48" height="48"></rect>
+        <rect id="path-17" x="0" y="0" width="48" height="48"></rect>
+        <rect id="path-19" x="0" y="-1" width="48" height="48"></rect>
+        <rect id="path-21" x="0" y="0" width="48" height="48"></rect>
+        <rect id="path-23" x="0" y="-1" width="48" height="48"></rect>
+        <rect id="path-25" x="0" y="0" width="48" height="48"></rect>
+        <rect id="path-27" x="0" y="-1" width="48" height="48"></rect>
+        <rect id="path-29" x="0" y="0" width="48" height="48"></rect>
+        <rect id="path-31" x="0" y="-1" width="48" height="48"></rect>
+        <rect id="path-33" x="0" y="0" width="48" height="48"></rect>
+        <rect id="path-35" x="0" y="-1" width="48" height="48"></rect>
+        <rect id="path-37" x="0" y="0" width="48" height="48"></rect>
+        <rect id="path-39" x="0" y="-1" width="48" height="48"></rect>
+        <rect id="path-41" x="0" y="0" width="48" height="48"></rect>
+        <rect id="path-43" x="0" y="-1" width="48" height="48"></rect>
+        <rect id="path-45" x="0" y="0" width="48" height="48"></rect>
+        <rect id="path-47" x="0" y="-1" width="48" height="48"></rect>
+        <rect id="path-49" x="0" y="0" width="48" height="48"></rect>
+        <rect id="path-51" x="0" y="-1" width="48" height="48"></rect>
+        <rect id="path-53" x="0" y="0" width="48" height="48"></rect>
+        <rect id="path-55" x="0" y="-1" width="48" height="48"></rect>
+        <rect id="path-57" x="0" y="0" width="48" height="48"></rect>
+        <rect id="path-59" x="0" y="-1" width="48" height="48"></rect>
+        <rect id="path-61" x="0" y="0" width="48" height="48"></rect>
+        <rect id="path-63" x="0" y="-1" width="48" height="48"></rect>
+        <rect id="path-65" x="0" y="0" width="48" height="48"></rect>
+        <rect id="path-67" x="0" y="-1" width="48" height="48"></rect>
+        <rect id="path-69" x="0" y="0" width="48" height="48"></rect>
+        <rect id="path-71" x="0" y="-1" width="48" height="48"></rect>
+        <rect id="path-73" x="0" y="0" width="48" height="48"></rect>
+        <rect id="path-75" x="0" y="-1" width="48" height="48"></rect>
+        <rect id="path-77" x="0" y="0" width="48" height="48"></rect>
+        <rect id="path-79" x="0" y="-1" width="48" height="48"></rect>
+        <rect id="path-81" x="0" y="0" width="48" height="48"></rect>
+        <rect id="path-83" x="0" y="-1" width="48" height="48"></rect>
+        <rect id="path-85" x="0" y="0" width="48" height="48"></rect>
+        <rect id="path-87" x="0" y="-1" width="48" height="48"></rect>
+        <rect id="path-89" x="0" y="0" width="48" height="48"></rect>
+        <rect id="path-91" x="0" y="-1" width="48" height="48"></rect>
+        <rect id="path-93" x="0" y="0" width="48" height="48"></rect>
+        <rect id="path-95" x="0" y="-1" width="48" height="48"></rect>
+        <rect id="path-97" x="0" y="0" width="48" height="48"></rect>
+        <rect id="path-99" x="0" y="-1" width="48" height="48"></rect>
+    </defs>
+    <g id="EP6-black" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.600000024">
+        <g id="Group-2">
+            <g id="Group">
+                <g id="EP-6/Elm-1">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="size" stroke="#FFFFFF" stroke-width="1" opacity="0" xlink:href="#path-1"></use>
+                    <g id="Content" stroke-width="1" fill-rule="evenodd" mask="url(#mask-2)">
+                        <g transform="translate(0.000000, 1.000000)">
+                            <mask id="mask-4" fill="white">
+                                <use xlink:href="#path-3"></use>
+                            </mask>
+                            <use id="Rectangle" stroke="none" fill="#D8D8D8" fill-rule="evenodd" opacity="0" xlink:href="#path-3"></use>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-4)" points="9 -6 9 2 9 14 15 20 15 44 15 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-4)" points="15 -6 15 2 15 11 21 17 21 44 21 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-4)" points="21 -6 21 2 21 8 27 14 27 44 27 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-4)" points="27 -6 27 2 27 5 39 17 39 44 39 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-4)" points="33 -6 33 2 33 32 30 32 9 32 9 44 9 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-4)" points="39 -6 39 2 39 5 39 8 45 14 45 26 42 26 5 26 3 28 -7 38"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-4)" points="33 56 33 46 45 34 55 24"></polyline>
+                        </g>
+                    </g>
+                </g>
+                <g id="EP-6/Elm-1" transform="translate(48.000000, 0.000000)">
+                    <mask id="mask-6" fill="white">
+                        <use xlink:href="#path-5"></use>
+                    </mask>
+                    <use id="size" stroke="#FFFFFF" stroke-width="1" opacity="0" xlink:href="#path-5"></use>
+                    <g id="Content" stroke-width="1" fill-rule="evenodd" mask="url(#mask-6)">
+                        <g transform="translate(0.000000, 1.000000)">
+                            <mask id="mask-8" fill="white">
+                                <use xlink:href="#path-7"></use>
+                            </mask>
+                            <use id="Rectangle" stroke="none" fill="#D8D8D8" fill-rule="evenodd" opacity="0" xlink:href="#path-7"></use>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-8)" points="9 -6 9 2 9 14 15 20 15 44 15 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-8)" points="15 -6 15 2 15 11 21 17 21 44 21 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-8)" points="21 -6 21 2 21 8 27 14 27 44 27 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-8)" points="27 -6 27 2 27 5 39 17 39 44 39 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-8)" points="33 -6 33 2 33 32 30 32 9 32 9 44 9 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-8)" points="39 -6 39 2 39 5 39 8 45 14 45 26 42 26 5 26 3 28 -7 38"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-8)" points="33 56 33 46 45 34 55 24"></polyline>
+                        </g>
+                    </g>
+                </g>
+                <g id="EP-6/Elm-1" transform="translate(96.000000, 0.000000)">
+                    <mask id="mask-10" fill="white">
+                        <use xlink:href="#path-9"></use>
+                    </mask>
+                    <use id="size" stroke="#FFFFFF" stroke-width="1" opacity="0" xlink:href="#path-9"></use>
+                    <g id="Content" stroke-width="1" fill-rule="evenodd" mask="url(#mask-10)">
+                        <g transform="translate(0.000000, 1.000000)">
+                            <mask id="mask-12" fill="white">
+                                <use xlink:href="#path-11"></use>
+                            </mask>
+                            <use id="Rectangle" stroke="none" fill="#D8D8D8" fill-rule="evenodd" opacity="0" xlink:href="#path-11"></use>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-12)" points="9 -6 9 2 9 14 15 20 15 44 15 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-12)" points="15 -6 15 2 15 11 21 17 21 44 21 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-12)" points="21 -6 21 2 21 8 27 14 27 44 27 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-12)" points="27 -6 27 2 27 5 39 17 39 44 39 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-12)" points="33 -6 33 2 33 32 30 32 9 32 9 44 9 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-12)" points="39 -6 39 2 39 5 39 8 45 14 45 26 42 26 5 26 3 28 -7 38"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-12)" points="33 56 33 46 45 34 55 24"></polyline>
+                        </g>
+                    </g>
+                </g>
+                <g id="EP-6/Elm-1" transform="translate(144.000000, 0.000000)">
+                    <mask id="mask-14" fill="white">
+                        <use xlink:href="#path-13"></use>
+                    </mask>
+                    <use id="size" stroke="#FFFFFF" stroke-width="1" opacity="0" xlink:href="#path-13"></use>
+                    <g id="Content" stroke-width="1" fill-rule="evenodd" mask="url(#mask-14)">
+                        <g transform="translate(0.000000, 1.000000)">
+                            <mask id="mask-16" fill="white">
+                                <use xlink:href="#path-15"></use>
+                            </mask>
+                            <use id="Rectangle" stroke="none" fill="#D8D8D8" fill-rule="evenodd" opacity="0" xlink:href="#path-15"></use>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-16)" points="9 -6 9 2 9 14 15 20 15 44 15 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-16)" points="15 -6 15 2 15 11 21 17 21 44 21 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-16)" points="21 -6 21 2 21 8 27 14 27 44 27 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-16)" points="27 -6 27 2 27 5 39 17 39 44 39 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-16)" points="33 -6 33 2 33 32 30 32 9 32 9 44 9 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-16)" points="39 -6 39 2 39 5 39 8 45 14 45 26 42 26 5 26 3 28 -7 38"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-16)" points="33 56 33 46 45 34 55 24"></polyline>
+                        </g>
+                    </g>
+                </g>
+                <g id="EP-6/Elm-1" transform="translate(192.000000, 0.000000)">
+                    <mask id="mask-18" fill="white">
+                        <use xlink:href="#path-17"></use>
+                    </mask>
+                    <use id="size" stroke="#FFFFFF" stroke-width="1" opacity="0" xlink:href="#path-17"></use>
+                    <g id="Content" stroke-width="1" fill-rule="evenodd" mask="url(#mask-18)">
+                        <g transform="translate(0.000000, 1.000000)">
+                            <mask id="mask-20" fill="white">
+                                <use xlink:href="#path-19"></use>
+                            </mask>
+                            <use id="Rectangle" stroke="none" fill="#D8D8D8" fill-rule="evenodd" opacity="0" xlink:href="#path-19"></use>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-20)" points="9 -6 9 2 9 14 15 20 15 44 15 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-20)" points="15 -6 15 2 15 11 21 17 21 44 21 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-20)" points="21 -6 21 2 21 8 27 14 27 44 27 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-20)" points="27 -6 27 2 27 5 39 17 39 44 39 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-20)" points="33 -6 33 2 33 32 30 32 9 32 9 44 9 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-20)" points="39 -6 39 2 39 5 39 8 45 14 45 26 42 26 5 26 3 28 -7 38"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-20)" points="33 56 33 46 45 34 55 24"></polyline>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <g id="Group" transform="translate(0.000000, 48.000000)">
+                <g id="EP-6/Elm-1">
+                    <mask id="mask-22" fill="white">
+                        <use xlink:href="#path-21"></use>
+                    </mask>
+                    <use id="size" stroke="#FFFFFF" stroke-width="1" opacity="0" xlink:href="#path-21"></use>
+                    <g id="Content" stroke-width="1" fill-rule="evenodd" mask="url(#mask-22)">
+                        <g transform="translate(0.000000, 1.000000)">
+                            <mask id="mask-24" fill="white">
+                                <use xlink:href="#path-23"></use>
+                            </mask>
+                            <use id="Rectangle" stroke="none" fill="#D8D8D8" fill-rule="evenodd" opacity="0" xlink:href="#path-23"></use>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-24)" points="9 -6 9 2 9 14 15 20 15 44 15 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-24)" points="15 -6 15 2 15 11 21 17 21 44 21 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-24)" points="21 -6 21 2 21 8 27 14 27 44 27 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-24)" points="27 -6 27 2 27 5 39 17 39 44 39 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-24)" points="33 -6 33 2 33 32 30 32 9 32 9 44 9 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-24)" points="39 -6 39 2 39 5 39 8 45 14 45 26 42 26 5 26 3 28 -7 38"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-24)" points="33 56 33 46 45 34 55 24"></polyline>
+                        </g>
+                    </g>
+                </g>
+                <g id="EP-6/Elm-1" transform="translate(48.000000, 0.000000)">
+                    <mask id="mask-26" fill="white">
+                        <use xlink:href="#path-25"></use>
+                    </mask>
+                    <use id="size" stroke="#FFFFFF" stroke-width="1" opacity="0" xlink:href="#path-25"></use>
+                    <g id="Content" stroke-width="1" fill-rule="evenodd" mask="url(#mask-26)">
+                        <g transform="translate(0.000000, 1.000000)">
+                            <mask id="mask-28" fill="white">
+                                <use xlink:href="#path-27"></use>
+                            </mask>
+                            <use id="Rectangle" stroke="none" fill="#D8D8D8" fill-rule="evenodd" opacity="0" xlink:href="#path-27"></use>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-28)" points="9 -6 9 2 9 14 15 20 15 44 15 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-28)" points="15 -6 15 2 15 11 21 17 21 44 21 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-28)" points="21 -6 21 2 21 8 27 14 27 44 27 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-28)" points="27 -6 27 2 27 5 39 17 39 44 39 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-28)" points="33 -6 33 2 33 32 30 32 9 32 9 44 9 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-28)" points="39 -6 39 2 39 5 39 8 45 14 45 26 42 26 5 26 3 28 -7 38"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-28)" points="33 56 33 46 45 34 55 24"></polyline>
+                        </g>
+                    </g>
+                </g>
+                <g id="EP-6/Elm-1" transform="translate(96.000000, 0.000000)">
+                    <mask id="mask-30" fill="white">
+                        <use xlink:href="#path-29"></use>
+                    </mask>
+                    <use id="size" stroke="#FFFFFF" stroke-width="1" opacity="0" xlink:href="#path-29"></use>
+                    <g id="Content" stroke-width="1" fill-rule="evenodd" mask="url(#mask-30)">
+                        <g transform="translate(0.000000, 1.000000)">
+                            <mask id="mask-32" fill="white">
+                                <use xlink:href="#path-31"></use>
+                            </mask>
+                            <use id="Rectangle" stroke="none" fill="#D8D8D8" fill-rule="evenodd" opacity="0" xlink:href="#path-31"></use>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-32)" points="9 -6 9 2 9 14 15 20 15 44 15 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-32)" points="15 -6 15 2 15 11 21 17 21 44 21 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-32)" points="21 -6 21 2 21 8 27 14 27 44 27 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-32)" points="27 -6 27 2 27 5 39 17 39 44 39 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-32)" points="33 -6 33 2 33 32 30 32 9 32 9 44 9 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-32)" points="39 -6 39 2 39 5 39 8 45 14 45 26 42 26 5 26 3 28 -7 38"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-32)" points="33 56 33 46 45 34 55 24"></polyline>
+                        </g>
+                    </g>
+                </g>
+                <g id="EP-6/Elm-1" transform="translate(144.000000, 0.000000)">
+                    <mask id="mask-34" fill="white">
+                        <use xlink:href="#path-33"></use>
+                    </mask>
+                    <use id="size" stroke="#FFFFFF" stroke-width="1" opacity="0" xlink:href="#path-33"></use>
+                    <g id="Content" stroke-width="1" fill-rule="evenodd" mask="url(#mask-34)">
+                        <g transform="translate(0.000000, 1.000000)">
+                            <mask id="mask-36" fill="white">
+                                <use xlink:href="#path-35"></use>
+                            </mask>
+                            <use id="Rectangle" stroke="none" fill="#D8D8D8" fill-rule="evenodd" opacity="0" xlink:href="#path-35"></use>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-36)" points="9 -6 9 2 9 14 15 20 15 44 15 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-36)" points="15 -6 15 2 15 11 21 17 21 44 21 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-36)" points="21 -6 21 2 21 8 27 14 27 44 27 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-36)" points="27 -6 27 2 27 5 39 17 39 44 39 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-36)" points="33 -6 33 2 33 32 30 32 9 32 9 44 9 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-36)" points="39 -6 39 2 39 5 39 8 45 14 45 26 42 26 5 26 3 28 -7 38"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-36)" points="33 56 33 46 45 34 55 24"></polyline>
+                        </g>
+                    </g>
+                </g>
+                <g id="EP-6/Elm-1" transform="translate(192.000000, 0.000000)">
+                    <mask id="mask-38" fill="white">
+                        <use xlink:href="#path-37"></use>
+                    </mask>
+                    <use id="size" stroke="#FFFFFF" stroke-width="1" opacity="0" xlink:href="#path-37"></use>
+                    <g id="Content" stroke-width="1" fill-rule="evenodd" mask="url(#mask-38)">
+                        <g transform="translate(0.000000, 1.000000)">
+                            <mask id="mask-40" fill="white">
+                                <use xlink:href="#path-39"></use>
+                            </mask>
+                            <use id="Rectangle" stroke="none" fill="#D8D8D8" fill-rule="evenodd" opacity="0" xlink:href="#path-39"></use>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-40)" points="9 -6 9 2 9 14 15 20 15 44 15 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-40)" points="15 -6 15 2 15 11 21 17 21 44 21 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-40)" points="21 -6 21 2 21 8 27 14 27 44 27 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-40)" points="27 -6 27 2 27 5 39 17 39 44 39 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-40)" points="33 -6 33 2 33 32 30 32 9 32 9 44 9 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-40)" points="39 -6 39 2 39 5 39 8 45 14 45 26 42 26 5 26 3 28 -7 38"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-40)" points="33 56 33 46 45 34 55 24"></polyline>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <g id="Group" transform="translate(0.000000, 96.000000)">
+                <g id="EP-6/Elm-1">
+                    <mask id="mask-42" fill="white">
+                        <use xlink:href="#path-41"></use>
+                    </mask>
+                    <use id="size" stroke="#FFFFFF" stroke-width="1" opacity="0" xlink:href="#path-41"></use>
+                    <g id="Content" stroke-width="1" fill-rule="evenodd" mask="url(#mask-42)">
+                        <g transform="translate(0.000000, 1.000000)">
+                            <mask id="mask-44" fill="white">
+                                <use xlink:href="#path-43"></use>
+                            </mask>
+                            <use id="Rectangle" stroke="none" fill="#D8D8D8" fill-rule="evenodd" opacity="0" xlink:href="#path-43"></use>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-44)" points="9 -6 9 2 9 14 15 20 15 44 15 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-44)" points="15 -6 15 2 15 11 21 17 21 44 21 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-44)" points="21 -6 21 2 21 8 27 14 27 44 27 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-44)" points="27 -6 27 2 27 5 39 17 39 44 39 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-44)" points="33 -6 33 2 33 32 30 32 9 32 9 44 9 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-44)" points="39 -6 39 2 39 5 39 8 45 14 45 26 42 26 5 26 3 28 -7 38"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-44)" points="33 56 33 46 45 34 55 24"></polyline>
+                        </g>
+                    </g>
+                </g>
+                <g id="EP-6/Elm-1" transform="translate(48.000000, 0.000000)">
+                    <mask id="mask-46" fill="white">
+                        <use xlink:href="#path-45"></use>
+                    </mask>
+                    <use id="size" stroke="#FFFFFF" stroke-width="1" opacity="0" xlink:href="#path-45"></use>
+                    <g id="Content" stroke-width="1" fill-rule="evenodd" mask="url(#mask-46)">
+                        <g transform="translate(0.000000, 1.000000)">
+                            <mask id="mask-48" fill="white">
+                                <use xlink:href="#path-47"></use>
+                            </mask>
+                            <use id="Rectangle" stroke="none" fill="#D8D8D8" fill-rule="evenodd" opacity="0" xlink:href="#path-47"></use>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-48)" points="9 -6 9 2 9 14 15 20 15 44 15 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-48)" points="15 -6 15 2 15 11 21 17 21 44 21 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-48)" points="21 -6 21 2 21 8 27 14 27 44 27 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-48)" points="27 -6 27 2 27 5 39 17 39 44 39 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-48)" points="33 -6 33 2 33 32 30 32 9 32 9 44 9 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-48)" points="39 -6 39 2 39 5 39 8 45 14 45 26 42 26 5 26 3 28 -7 38"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-48)" points="33 56 33 46 45 34 55 24"></polyline>
+                        </g>
+                    </g>
+                </g>
+                <g id="EP-6/Elm-1" transform="translate(96.000000, 0.000000)">
+                    <mask id="mask-50" fill="white">
+                        <use xlink:href="#path-49"></use>
+                    </mask>
+                    <use id="size" stroke="#FFFFFF" stroke-width="1" opacity="0" xlink:href="#path-49"></use>
+                    <g id="Content" stroke-width="1" fill-rule="evenodd" mask="url(#mask-50)">
+                        <g transform="translate(0.000000, 1.000000)">
+                            <mask id="mask-52" fill="white">
+                                <use xlink:href="#path-51"></use>
+                            </mask>
+                            <use id="Rectangle" stroke="none" fill="#D8D8D8" fill-rule="evenodd" opacity="0" xlink:href="#path-51"></use>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-52)" points="9 -6 9 2 9 14 15 20 15 44 15 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-52)" points="15 -6 15 2 15 11 21 17 21 44 21 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-52)" points="21 -6 21 2 21 8 27 14 27 44 27 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-52)" points="27 -6 27 2 27 5 39 17 39 44 39 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-52)" points="33 -6 33 2 33 32 30 32 9 32 9 44 9 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-52)" points="39 -6 39 2 39 5 39 8 45 14 45 26 42 26 5 26 3 28 -7 38"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-52)" points="33 56 33 46 45 34 55 24"></polyline>
+                        </g>
+                    </g>
+                </g>
+                <g id="EP-6/Elm-1" transform="translate(144.000000, 0.000000)">
+                    <mask id="mask-54" fill="white">
+                        <use xlink:href="#path-53"></use>
+                    </mask>
+                    <use id="size" stroke="#FFFFFF" stroke-width="1" opacity="0" xlink:href="#path-53"></use>
+                    <g id="Content" stroke-width="1" fill-rule="evenodd" mask="url(#mask-54)">
+                        <g transform="translate(0.000000, 1.000000)">
+                            <mask id="mask-56" fill="white">
+                                <use xlink:href="#path-55"></use>
+                            </mask>
+                            <use id="Rectangle" stroke="none" fill="#D8D8D8" fill-rule="evenodd" opacity="0" xlink:href="#path-55"></use>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-56)" points="9 -6 9 2 9 14 15 20 15 44 15 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-56)" points="15 -6 15 2 15 11 21 17 21 44 21 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-56)" points="21 -6 21 2 21 8 27 14 27 44 27 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-56)" points="27 -6 27 2 27 5 39 17 39 44 39 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-56)" points="33 -6 33 2 33 32 30 32 9 32 9 44 9 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-56)" points="39 -6 39 2 39 5 39 8 45 14 45 26 42 26 5 26 3 28 -7 38"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-56)" points="33 56 33 46 45 34 55 24"></polyline>
+                        </g>
+                    </g>
+                </g>
+                <g id="EP-6/Elm-1" transform="translate(192.000000, 0.000000)">
+                    <mask id="mask-58" fill="white">
+                        <use xlink:href="#path-57"></use>
+                    </mask>
+                    <use id="size" stroke="#FFFFFF" stroke-width="1" opacity="0" xlink:href="#path-57"></use>
+                    <g id="Content" stroke-width="1" fill-rule="evenodd" mask="url(#mask-58)">
+                        <g transform="translate(0.000000, 1.000000)">
+                            <mask id="mask-60" fill="white">
+                                <use xlink:href="#path-59"></use>
+                            </mask>
+                            <use id="Rectangle" stroke="none" fill="#D8D8D8" fill-rule="evenodd" opacity="0" xlink:href="#path-59"></use>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-60)" points="9 -6 9 2 9 14 15 20 15 44 15 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-60)" points="15 -6 15 2 15 11 21 17 21 44 21 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-60)" points="21 -6 21 2 21 8 27 14 27 44 27 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-60)" points="27 -6 27 2 27 5 39 17 39 44 39 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-60)" points="33 -6 33 2 33 32 30 32 9 32 9 44 9 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-60)" points="39 -6 39 2 39 5 39 8 45 14 45 26 42 26 5 26 3 28 -7 38"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-60)" points="33 56 33 46 45 34 55 24"></polyline>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <g id="Group" transform="translate(0.000000, 144.000000)">
+                <g id="EP-6/Elm-1">
+                    <mask id="mask-62" fill="white">
+                        <use xlink:href="#path-61"></use>
+                    </mask>
+                    <use id="size" stroke="#FFFFFF" stroke-width="1" opacity="0" xlink:href="#path-61"></use>
+                    <g id="Content" stroke-width="1" fill-rule="evenodd" mask="url(#mask-62)">
+                        <g transform="translate(0.000000, 1.000000)">
+                            <mask id="mask-64" fill="white">
+                                <use xlink:href="#path-63"></use>
+                            </mask>
+                            <use id="Rectangle" stroke="none" fill="#D8D8D8" fill-rule="evenodd" opacity="0" xlink:href="#path-63"></use>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-64)" points="9 -6 9 2 9 14 15 20 15 44 15 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-64)" points="15 -6 15 2 15 11 21 17 21 44 21 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-64)" points="21 -6 21 2 21 8 27 14 27 44 27 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-64)" points="27 -6 27 2 27 5 39 17 39 44 39 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-64)" points="33 -6 33 2 33 32 30 32 9 32 9 44 9 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-64)" points="39 -6 39 2 39 5 39 8 45 14 45 26 42 26 5 26 3 28 -7 38"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-64)" points="33 56 33 46 45 34 55 24"></polyline>
+                        </g>
+                    </g>
+                </g>
+                <g id="EP-6/Elm-1" transform="translate(48.000000, 0.000000)">
+                    <mask id="mask-66" fill="white">
+                        <use xlink:href="#path-65"></use>
+                    </mask>
+                    <use id="size" stroke="#FFFFFF" stroke-width="1" opacity="0" xlink:href="#path-65"></use>
+                    <g id="Content" stroke-width="1" fill-rule="evenodd" mask="url(#mask-66)">
+                        <g transform="translate(0.000000, 1.000000)">
+                            <mask id="mask-68" fill="white">
+                                <use xlink:href="#path-67"></use>
+                            </mask>
+                            <use id="Rectangle" stroke="none" fill="#D8D8D8" fill-rule="evenodd" opacity="0" xlink:href="#path-67"></use>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-68)" points="9 -6 9 2 9 14 15 20 15 44 15 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-68)" points="15 -6 15 2 15 11 21 17 21 44 21 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-68)" points="21 -6 21 2 21 8 27 14 27 44 27 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-68)" points="27 -6 27 2 27 5 39 17 39 44 39 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-68)" points="33 -6 33 2 33 32 30 32 9 32 9 44 9 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-68)" points="39 -6 39 2 39 5 39 8 45 14 45 26 42 26 5 26 3 28 -7 38"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-68)" points="33 56 33 46 45 34 55 24"></polyline>
+                        </g>
+                    </g>
+                </g>
+                <g id="EP-6/Elm-1" transform="translate(96.000000, 0.000000)">
+                    <mask id="mask-70" fill="white">
+                        <use xlink:href="#path-69"></use>
+                    </mask>
+                    <use id="size" stroke="#FFFFFF" stroke-width="1" opacity="0" xlink:href="#path-69"></use>
+                    <g id="Content" stroke-width="1" fill-rule="evenodd" mask="url(#mask-70)">
+                        <g transform="translate(0.000000, 1.000000)">
+                            <mask id="mask-72" fill="white">
+                                <use xlink:href="#path-71"></use>
+                            </mask>
+                            <use id="Rectangle" stroke="none" fill="#D8D8D8" fill-rule="evenodd" opacity="0" xlink:href="#path-71"></use>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-72)" points="9 -6 9 2 9 14 15 20 15 44 15 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-72)" points="15 -6 15 2 15 11 21 17 21 44 21 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-72)" points="21 -6 21 2 21 8 27 14 27 44 27 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-72)" points="27 -6 27 2 27 5 39 17 39 44 39 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-72)" points="33 -6 33 2 33 32 30 32 9 32 9 44 9 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-72)" points="39 -6 39 2 39 5 39 8 45 14 45 26 42 26 5 26 3 28 -7 38"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-72)" points="33 56 33 46 45 34 55 24"></polyline>
+                        </g>
+                    </g>
+                </g>
+                <g id="EP-6/Elm-1" transform="translate(144.000000, 0.000000)">
+                    <mask id="mask-74" fill="white">
+                        <use xlink:href="#path-73"></use>
+                    </mask>
+                    <use id="size" stroke="#FFFFFF" stroke-width="1" opacity="0" xlink:href="#path-73"></use>
+                    <g id="Content" stroke-width="1" fill-rule="evenodd" mask="url(#mask-74)">
+                        <g transform="translate(0.000000, 1.000000)">
+                            <mask id="mask-76" fill="white">
+                                <use xlink:href="#path-75"></use>
+                            </mask>
+                            <use id="Rectangle" stroke="none" fill="#D8D8D8" fill-rule="evenodd" opacity="0" xlink:href="#path-75"></use>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-76)" points="9 -6 9 2 9 14 15 20 15 44 15 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-76)" points="15 -6 15 2 15 11 21 17 21 44 21 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-76)" points="21 -6 21 2 21 8 27 14 27 44 27 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-76)" points="27 -6 27 2 27 5 39 17 39 44 39 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-76)" points="33 -6 33 2 33 32 30 32 9 32 9 44 9 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-76)" points="39 -6 39 2 39 5 39 8 45 14 45 26 42 26 5 26 3 28 -7 38"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-76)" points="33 56 33 46 45 34 55 24"></polyline>
+                        </g>
+                    </g>
+                </g>
+                <g id="EP-6/Elm-1" transform="translate(192.000000, 0.000000)">
+                    <mask id="mask-78" fill="white">
+                        <use xlink:href="#path-77"></use>
+                    </mask>
+                    <use id="size" stroke="#FFFFFF" stroke-width="1" opacity="0" xlink:href="#path-77"></use>
+                    <g id="Content" stroke-width="1" fill-rule="evenodd" mask="url(#mask-78)">
+                        <g transform="translate(0.000000, 1.000000)">
+                            <mask id="mask-80" fill="white">
+                                <use xlink:href="#path-79"></use>
+                            </mask>
+                            <use id="Rectangle" stroke="none" fill="#D8D8D8" fill-rule="evenodd" opacity="0" xlink:href="#path-79"></use>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-80)" points="9 -6 9 2 9 14 15 20 15 44 15 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-80)" points="15 -6 15 2 15 11 21 17 21 44 21 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-80)" points="21 -6 21 2 21 8 27 14 27 44 27 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-80)" points="27 -6 27 2 27 5 39 17 39 44 39 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-80)" points="33 -6 33 2 33 32 30 32 9 32 9 44 9 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-80)" points="39 -6 39 2 39 5 39 8 45 14 45 26 42 26 5 26 3 28 -7 38"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-80)" points="33 56 33 46 45 34 55 24"></polyline>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <g id="Group" transform="translate(0.000000, 192.000000)">
+                <g id="EP-6/Elm-1">
+                    <mask id="mask-82" fill="white">
+                        <use xlink:href="#path-81"></use>
+                    </mask>
+                    <use id="size" stroke="#FFFFFF" stroke-width="1" opacity="0" xlink:href="#path-81"></use>
+                    <g id="Content" stroke-width="1" fill-rule="evenodd" mask="url(#mask-82)">
+                        <g transform="translate(0.000000, 1.000000)">
+                            <mask id="mask-84" fill="white">
+                                <use xlink:href="#path-83"></use>
+                            </mask>
+                            <use id="Rectangle" stroke="none" fill="#D8D8D8" fill-rule="evenodd" opacity="0" xlink:href="#path-83"></use>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-84)" points="9 -6 9 2 9 14 15 20 15 44 15 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-84)" points="15 -6 15 2 15 11 21 17 21 44 21 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-84)" points="21 -6 21 2 21 8 27 14 27 44 27 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-84)" points="27 -6 27 2 27 5 39 17 39 44 39 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-84)" points="33 -6 33 2 33 32 30 32 9 32 9 44 9 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-84)" points="39 -6 39 2 39 5 39 8 45 14 45 26 42 26 5 26 3 28 -7 38"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-84)" points="33 56 33 46 45 34 55 24"></polyline>
+                        </g>
+                    </g>
+                </g>
+                <g id="EP-6/Elm-1" transform="translate(48.000000, 0.000000)">
+                    <mask id="mask-86" fill="white">
+                        <use xlink:href="#path-85"></use>
+                    </mask>
+                    <use id="size" stroke="#FFFFFF" stroke-width="1" opacity="0" xlink:href="#path-85"></use>
+                    <g id="Content" stroke-width="1" fill-rule="evenodd" mask="url(#mask-86)">
+                        <g transform="translate(0.000000, 1.000000)">
+                            <mask id="mask-88" fill="white">
+                                <use xlink:href="#path-87"></use>
+                            </mask>
+                            <use id="Rectangle" stroke="none" fill="#D8D8D8" fill-rule="evenodd" opacity="0" xlink:href="#path-87"></use>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-88)" points="9 -6 9 2 9 14 15 20 15 44 15 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-88)" points="15 -6 15 2 15 11 21 17 21 44 21 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-88)" points="21 -6 21 2 21 8 27 14 27 44 27 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-88)" points="27 -6 27 2 27 5 39 17 39 44 39 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-88)" points="33 -6 33 2 33 32 30 32 9 32 9 44 9 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-88)" points="39 -6 39 2 39 5 39 8 45 14 45 26 42 26 5 26 3 28 -7 38"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-88)" points="33 56 33 46 45 34 55 24"></polyline>
+                        </g>
+                    </g>
+                </g>
+                <g id="EP-6/Elm-1" transform="translate(96.000000, 0.000000)">
+                    <mask id="mask-90" fill="white">
+                        <use xlink:href="#path-89"></use>
+                    </mask>
+                    <use id="size" stroke="#FFFFFF" stroke-width="1" opacity="0" xlink:href="#path-89"></use>
+                    <g id="Content" stroke-width="1" fill-rule="evenodd" mask="url(#mask-90)">
+                        <g transform="translate(0.000000, 1.000000)">
+                            <mask id="mask-92" fill="white">
+                                <use xlink:href="#path-91"></use>
+                            </mask>
+                            <use id="Rectangle" stroke="none" fill="#D8D8D8" fill-rule="evenodd" opacity="0" xlink:href="#path-91"></use>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-92)" points="9 -6 9 2 9 14 15 20 15 44 15 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-92)" points="15 -6 15 2 15 11 21 17 21 44 21 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-92)" points="21 -6 21 2 21 8 27 14 27 44 27 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-92)" points="27 -6 27 2 27 5 39 17 39 44 39 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-92)" points="33 -6 33 2 33 32 30 32 9 32 9 44 9 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-92)" points="39 -6 39 2 39 5 39 8 45 14 45 26 42 26 5 26 3 28 -7 38"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-92)" points="33 56 33 46 45 34 55 24"></polyline>
+                        </g>
+                    </g>
+                </g>
+                <g id="EP-6/Elm-1" transform="translate(144.000000, 0.000000)">
+                    <mask id="mask-94" fill="white">
+                        <use xlink:href="#path-93"></use>
+                    </mask>
+                    <use id="size" stroke="#FFFFFF" stroke-width="1" opacity="0" xlink:href="#path-93"></use>
+                    <g id="Content" stroke-width="1" fill-rule="evenodd" mask="url(#mask-94)">
+                        <g transform="translate(0.000000, 1.000000)">
+                            <mask id="mask-96" fill="white">
+                                <use xlink:href="#path-95"></use>
+                            </mask>
+                            <use id="Rectangle" stroke="none" fill="#D8D8D8" fill-rule="evenodd" opacity="0" xlink:href="#path-95"></use>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-96)" points="9 -6 9 2 9 14 15 20 15 44 15 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-96)" points="15 -6 15 2 15 11 21 17 21 44 21 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-96)" points="21 -6 21 2 21 8 27 14 27 44 27 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-96)" points="27 -6 27 2 27 5 39 17 39 44 39 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-96)" points="33 -6 33 2 33 32 30 32 9 32 9 44 9 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-96)" points="39 -6 39 2 39 5 39 8 45 14 45 26 42 26 5 26 3 28 -7 38"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-96)" points="33 56 33 46 45 34 55 24"></polyline>
+                        </g>
+                    </g>
+                </g>
+                <g id="EP-6/Elm-1" transform="translate(192.000000, 0.000000)">
+                    <mask id="mask-98" fill="white">
+                        <use xlink:href="#path-97"></use>
+                    </mask>
+                    <use id="size" stroke="#FFFFFF" stroke-width="1" opacity="0" xlink:href="#path-97"></use>
+                    <g id="Content" stroke-width="1" fill-rule="evenodd" mask="url(#mask-98)">
+                        <g transform="translate(0.000000, 1.000000)">
+                            <mask id="mask-100" fill="white">
+                                <use xlink:href="#path-99"></use>
+                            </mask>
+                            <use id="Rectangle" stroke="none" fill="#D8D8D8" fill-rule="evenodd" opacity="0" xlink:href="#path-99"></use>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-100)" points="9 -6 9 2 9 14 15 20 15 44 15 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-100)" points="15 -6 15 2 15 11 21 17 21 44 21 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-100)" points="21 -6 21 2 21 8 27 14 27 44 27 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-100)" points="27 -6 27 2 27 5 39 17 39 44 39 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-100)" points="33 -6 33 2 33 32 30 32 9 32 9 44 9 52"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-100)" points="39 -6 39 2 39 5 39 8 45 14 45 26 42 26 5 26 3 28 -7 38"></polyline>
+                            <polyline id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-100)" points="33 56 33 46 45 34 55 24"></polyline>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
