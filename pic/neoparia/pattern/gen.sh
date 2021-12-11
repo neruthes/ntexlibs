@@ -1,19 +1,31 @@
 #!/bin/bash
 
 # function colorize() {
-#     INFN=$1
-#     OUTFN=$2
-#     COLORSPEC=$3
+#     
 # }
 
+function _colorizeImage() {
+    INFN="$1"
+    COLOR_CODE="$2"
+    OUTFN="$3"
+    convert "$INFN" -colorize "$COLOR_CODE" "$OUTFN"
+}
 function makeClass() {
     MYCLASS=$1
     TILESIZE=$2
-    convert $MYCLASS-black.png -colorize 0,25,55 $MYCLASS-blue.png
-    convert $MYCLASS-black.png -colorize 55,47,0 $MYCLASS-yellow.png
-    convert $MYCLASS-black_20p.png -colorize 0,25,55 $MYCLASS-blue_20p.png
-    convert $MYCLASS-black_20p.png -colorize 55,47,0 $MYCLASS-yellow_20p.png
-    for MyColor in black black_20p blue blue_20p yellow yellow_20p; do
+
+    ### Normal
+    # _colorizeImage $MYCLASS-black.png 0,25,55 $MYCLASS-blue.png
+    # _colorizeImage $MYCLASS-black.png 55,47,0 $MYCLASS-yellow.png
+    _colorizeImage $MYCLASS-black.png 0,45,15 $MYCLASS-green.png
+
+    ### Opacity 20%
+    # _colorizeImage $MYCLASS-black_20p.png 0,25,55 $MYCLASS-blue_20p.png
+    # _colorizeImage $MYCLASS-black_20p.png 55,47,0 $MYCLASS-yellow_20p.png
+    _colorizeImage $MYCLASS-black_20p.png 0,45,15 $MYCLASS-green_20p.png
+    
+    # for MyColor in black black_20p blue blue_20p yellow yellow_20p green green_20p; do
+    for MyColor in green green_20p; do
         echo "Making $MYCLASS-$MyColor.tile.png"
         convert -size $TILESIZE tile:$MYCLASS-$MyColor.png $MYCLASS-$MyColor.tile.png
     done
