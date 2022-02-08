@@ -1,0 +1,112 @@
+\usepackage{keyval}
+\usepackage{fontawesome5}
+\usepackage{tabu}
+
+
+\makeatletter
+
+
+%%% ===============================================
+%%% Common parts
+%%% ===============================================
+\newcommand{\ntripcommondef}[0]{
+    \setlength{\tabulinesep}{5pt}
+}
+\newcommand{\ntripendsection}[0]{
+    \vspace{10pt}
+}
+\newcommand{\ntripleadingicon}[1]{
+    \hspace{7pt}\faIcon{#1}
+}
+% \newcommand{\ntripntripleadingiconAir}[0]{}
+\def\ntripleadingiconwidth{20pt}
+
+%%% ===============================================
+%%% tripAir
+%%% ===============================================
+\def\tripAir{
+    \@ifnextchar{[}
+        {\@tripAir}
+        {\@tripAir[]}
+}
+\def\@tripAir[#1]#2{
+    \setkeys{tripItem}{#1}
+    \ntripcommondef
+    \begin{tabu} {|cXr|}
+        \hline
+        {\ntripleadingicon{plane-departure}} & {\large\bfseries \ntripcode} & {\small\ttfamily \ntripdate} \\
+        {\hspace{\ntripleadingiconwidth}} & {\bfseries \ntripdep} & {\ttfamily\bfseries \ntripdepTime} \\
+        {} & {\bfseries \ntriparr} & {\ttfamily\bfseries \ntriparrTime} \\
+        {} & \multicolumn2{l|}{\small #2} \\
+        {} & \multicolumn2{l|}{\small Progress:\hspace{6pt}
+            $\bigcirc$ Book\hspace{6pt}
+            $\bigcirc$ CI\hspace{6pt}
+            $\bigcirc$ Pass\hspace{6pt}
+            $\bigcirc$ Itinerary\hspace{6pt}
+        }\\
+        \hline
+    \end{tabu}\par
+    \ntripendsection
+}
+%%% ===============================================
+%%% tripTrain
+%%% ===============================================
+\def\tripTrain{
+    \@ifnextchar{[}
+        {\@tripTrain}
+        {\@tripTrain[]}
+}
+\def\@tripTrain[#1]#2{
+    \setkeys{tripItem}{#1}
+    \ntripcommondef
+    \begin{tabu} {|cXr|}
+        \hline
+        {\ntripleadingicon{train}} & {\large\bfseries \ntripcode} & {\small\ttfamily \ntripdate} \\
+        {\hspace{\ntripleadingiconwidth}} & {\bfseries \ntripdep} & {\ttfamily\bfseries \ntripdepTime} \\
+        {} & {\bfseries \ntriparr} & {\ttfamily\bfseries \ntriparrTime} \\
+        {} & \multicolumn2{l|}{\small #2} \\
+        {} & \multicolumn2{l|}{\small Progress:\hspace{6pt}
+            $\bigcirc$ Book\hspace{6pt}
+        }\\
+        \hline
+    \end{tabu}\par
+    \ntripendsection
+}
+%%% ===============================================
+%%% Event
+%%% ===============================================
+\def\tripEvent{
+    \@ifnextchar{[}
+        {\@tripEvent}
+        {\@tripEvent[]}
+}
+\def\@tripEvent[#1]#2{
+    \setkeys{tripItem}{#1}
+    \ntripcommondef
+    \begin{tabu} {|cXr|}
+        \hline
+        {\ntripleadingicon{calendar-check}} & {\large\bfseries #2} & {\small\ttfamily \ntriptime} \\
+        {\hspace{\ntripleadingiconwidth}} & \multicolumn2{l|}{\ntripaddr} \\
+        {} & \multicolumn2{l|}{\small #2} \\
+        \hline
+    \end{tabu}\par
+    \ntripendsection
+}
+
+
+%%% ===============================================
+%%% Defined keys
+%%% ===============================================
+% For air/train
+\define@key{tripItem}{code}[????]{\def\ntripcode{#1}}
+\define@key{tripItem}{date}[]{\def\ntripdate{#1}}
+\define@key{tripItem}{dep}[????]{\def\ntripdep{#1}}
+\define@key{tripItem}{depTime}[????]{\def\ntripdepTime{#1}}
+\define@key{tripItem}{arr}[????]{\def\ntriparr{#1}}
+\define@key{tripItem}{arrTime}[????]{\def\ntriparrTime{#1}}
+
+% For event
+\define@key{tripItem}{time}[]{\def\ntriptime{#1}}
+\define@key{tripItem}{addr}[????]{\def\ntripaddr{#1}}
+
+\makeatother
