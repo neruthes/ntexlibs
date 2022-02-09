@@ -16,10 +16,10 @@
     \vspace{10pt}
 }
 \newcommand{\ntripleadingicon}[1]{
-    \hspace{7pt}\faIcon{#1}
+    \hspace{4pt}\faIcon{#1}
 }
 % \newcommand{\ntripntripleadingiconAir}[0]{}
-\def\ntripleadingiconwidth{20pt}
+\def\ntripleadingiconwidth{16pt}
 
 %%% ===============================================
 %%% tripAir
@@ -38,12 +38,12 @@
         {\hspace{\ntripleadingiconwidth}} & {\bfseries \ntripdep} & {\ttfamily\bfseries \ntripdepTime} \\
         {} & {\bfseries \ntriparr} & {\ttfamily\bfseries \ntriparrTime} \\
         {} & \multicolumn2{l|}{\small #2} \\
-        {} & \multicolumn2{l|}{\small Progress:\hspace{6pt}
-            $\bigcirc$ Book\hspace{6pt}
-            $\bigcirc$ CI\hspace{6pt}
-            $\bigcirc$ Pass\hspace{6pt}
-            $\bigcirc$ Itinerary\hspace{6pt}
-        }\\
+        % {} & \multicolumn2{l|}{\small Progress:\hspace{6pt}
+        %     $\bigcirc$ Book\hspace{6pt}
+        %     $\bigcirc$ CI\hspace{6pt}
+        %     $\bigcirc$ Pass\hspace{6pt}
+        %     $\bigcirc$ Itinerary\hspace{6pt}
+        % }\\
         \hline
     \end{tabu}\par
     \ntripendsection
@@ -65,15 +65,15 @@
         {\hspace{\ntripleadingiconwidth}} & {\bfseries \ntripdep} & {\ttfamily\bfseries \ntripdepTime} \\
         {} & {\bfseries \ntriparr} & {\ttfamily\bfseries \ntriparrTime} \\
         {} & \multicolumn2{l|}{\small #2} \\
-        {} & \multicolumn2{l|}{\small Progress:\hspace{6pt}
-            $\bigcirc$ Book\hspace{6pt}
-        }\\
+        % {} & \multicolumn2{l|}{\small Progress:\hspace{6pt}
+            % $\bigcirc$ Book\hspace{6pt}
+        % }\\
         \hline
     \end{tabu}\par
     \ntripendsection
 }
 %%% ===============================================
-%%% Event
+%%% tripEvent
 %%% ===============================================
 \def\tripEvent{
     \@ifnextchar{[}
@@ -85,7 +85,7 @@
     \ntripcommondef
     \begin{tabu} {|cXr|}
         \hline
-        {\ntripleadingicon{calendar-check}} & {\large\bfseries #2} & {\small\ttfamily \ntriptime} \\
+        {\ntripleadingicon{calendar-check}} & {\large\bfseries \ntriptitle} & {\small\ttfamily \ntriptime} \\
         {\hspace{\ntripleadingiconwidth}} & \multicolumn2{l|}{\ntripaddr} \\
         {} & \multicolumn2{l|}{\small #2} \\
         \hline
@@ -107,6 +107,7 @@
 
 % For event
 \define@key{tripItem}{time}[]{\def\ntriptime{#1}}
+\define@key{tripItem}{title}[]{\def\ntriptitle{#1}}
 \define@key{tripItem}{addr}[????]{\def\ntripaddr{#1}}
 
 \makeatother
