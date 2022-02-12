@@ -11,13 +11,13 @@
 %%% Common parts
 %%% ===============================================
 \newcommand{\ntripcommondef}[0]{
-    \setlength{\tabulinesep}{5pt}
+	\setlength{\tabulinesep}{5pt}
 }
 \newcommand{\ntripendsection}[0]{
-    \vspace{10pt}
+	\vspace{10pt}
 }
 \newcommand{\ntripleadingicon}[1]{
-    \hspace{4pt}\faIcon{#1}
+	\hspace{4pt}\faIcon{#1}
 }
 % \newcommand{\ntripntripleadingiconAir}[0]{}
 \def\ntripleadingiconwidth{16pt}
@@ -26,72 +26,63 @@
 %%% tripAir
 %%% ===============================================
 \def\tripAir{
-    \@ifnextchar{[}
-        {\@tripAir}
-        {\@tripAir[]}
+\@ifnextchar{[}
+{\@tripAir}
+{\@tripAir[]}
 }
 \def\@tripAir[#1]#2{
-    \setkeys{tripItem}{#1}
-    \ntripcommondef
-    \begin{tabu} {|cXr|}
-        \hline
-        {\ntripleadingicon{plane-departure}} & {\large\bfseries \ntripcode} & {\small\ttfamily \ntripdate} \\
-        {\hspace{\ntripleadingiconwidth}} & {\bfseries \ntripdep} & {\ttfamily\bfseries \ntripdepTime} \\
-        {} & {\bfseries \ntriparr} & {\ttfamily\bfseries \ntriparrTime} \\
-        {} & \multicolumn2{l|}{\small #2} \\
-        % {} & \multicolumn2{l|}{\small Progress:\hspace{6pt}
-        %     $\bigcirc$ Book\hspace{6pt}
-        %     $\bigcirc$ CI\hspace{6pt}
-        %     $\bigcirc$ Pass\hspace{6pt}
-        %     $\bigcirc$ Itinerary\hspace{6pt}
-        % }\\
-        \hline
-    \end{tabu}\par
-    \ntripendsection
+	\setkeys{tripItem}{#1}
+	\ntripcommondef
+	\begin{tabu} {|cX|}
+		\hline
+		{\ntripleadingicon{plane-departure}} & {\large\bfseries\ntripcode \hfill \small\ttfamily\ntripdate} \\
+		{\hspace{\ntripleadingiconwidth}}    & {\bfseries\ntripdep \hfill \ttfamily\bfseries\ntripdepTime}  \\
+		{}                                   & {\bfseries\ntriparr \hfill \ttfamily\bfseries\ntriparrTime}  \\
+		{}                                   & {\small #2}                                                  \\
+		\hline
+	\end{tabu}\par
+	\ntripendsection
 }
 %%% ===============================================
 %%% tripTrain
 %%% ===============================================
 \def\tripTrain{
-    \@ifnextchar{[}
-        {\@tripTrain}
-        {\@tripTrain[]}
+\@ifnextchar{[}
+{\@tripTrain}
+{\@tripTrain[]}
 }
 \def\@tripTrain[#1]#2{
-    \setkeys{tripItem}{#1}
-    \ntripcommondef
-    \begin{tabu} {|cXr|}
-        \hline
-        {\ntripleadingicon{train}} & {\large\bfseries \ntripcode} & {\small\ttfamily \ntripdate} \\
-        {\hspace{\ntripleadingiconwidth}} & {\bfseries \ntripdep} & {\ttfamily\bfseries \ntripdepTime} \\
-        {} & {\bfseries \ntriparr} & {\ttfamily\bfseries \ntriparrTime} \\
-        {} & \multicolumn2{l|}{\small #2} \\
-        % {} & \multicolumn2{l|}{\small Progress:\hspace{6pt}
-            % $\bigcirc$ Book\hspace{6pt}
-        % }\\
-        \hline
-    \end{tabu}\par
-    \ntripendsection
+	\setkeys{tripItem}{#1}
+	\ntripcommondef
+	\begin{tabu} {|cX|}
+		\hline
+		{\ntripleadingicon{train}}        & {\large\bfseries\ntripcode \hfill \small\ttfamily\ntripdate} \\
+		{\hspace{\ntripleadingiconwidth}} & {\bfseries\ntripdep \hfill \ttfamily\bfseries\ntripdepTime}  \\
+		{}                                & {\bfseries\ntriparr \hfill \ttfamily\bfseries\ntriparrTime}  \\
+		{}                                & {\small #2}                                                  \\
+		\hline
+	\end{tabu}\par
+	\ntripendsection
 }
 %%% ===============================================
 %%% tripEvent
 %%% ===============================================
 \def\tripEvent{
-    \@ifnextchar{[}
-        {\@tripEvent}
-        {\@tripEvent[]}
+\@ifnextchar{[}
+{\@tripEvent}
+{\@tripEvent[]}
 }
 \def\@tripEvent[#1]#2{
-    \setkeys{tripItem}{#1}
-    \ntripcommondef
-    \begin{tabu} {|cX|}
-        \hline
-        {\ntripleadingicon{calendar-check}} & {\large\bfseries \ntriptitle \hfill \small\ttfamily \ntriptime} \\
-        {\hspace{\ntripleadingiconwidth}} & {\ntripaddr} \\
-        {} & {\small #2} \\
-        \hline
-    \end{tabu}\par
-    \ntripendsection
+	\setkeys{tripItem}{#1}
+	\ntripcommondef
+	\begin{tabu} {|cX|}
+		\hline
+		{\ntripleadingicon{calendar-check}} & {\large\bfseries\ntriptitle \hfill \small\ttfamily\ntriptime} \\
+		{\hspace{\ntripleadingiconwidth}}   & {\ntripaddr}                                                  \\
+		{}                                  & {\small #2}                                                   \\
+		\hline
+	\end{tabu}\par
+	\ntripendsection
 }
 
 
