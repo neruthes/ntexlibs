@@ -1,6 +1,7 @@
 \usepackage{keyval}
 \usepackage{fontawesome5}
 \usepackage{tabu}
+\usepackage{makecell}
 
 
 \makeatletter
@@ -83,11 +84,11 @@
 \def\@tripEvent[#1]#2{
     \setkeys{tripItem}{#1}
     \ntripcommondef
-    \begin{tabu} {|cXr|}
+    \begin{tabu} {|cX|}
         \hline
-        {\ntripleadingicon{calendar-check}} & {\large\bfseries \ntriptitle} & {\small\ttfamily \ntriptime} \\
-        {\hspace{\ntripleadingiconwidth}} & \multicolumn2{l|}{\ntripaddr} \\
-        {} & \multicolumn2{l|}{\small #2} \\
+        {\ntripleadingicon{calendar-check}} & {\large\bfseries \ntriptitle \hfill \small\ttfamily \ntriptime} \\
+        {\hspace{\ntripleadingiconwidth}} & {\ntripaddr} \\
+        {} & {\small #2} \\
         \hline
     \end{tabu}\par
     \ntripendsection
