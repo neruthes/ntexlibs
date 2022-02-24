@@ -4,7 +4,7 @@
 \usepackage{titlesec}
 
 
-\usepackage[PunctStyle=plain]{xeCJK}
+\usepackage[PunctStyle=plain,RubberPunctSkip=false]{xeCJK}
 \XeTeXlinebreaklocale "zh" 
 \XeTeXlinebreakskip = 0pt plus 1pt 
 
@@ -60,8 +60,8 @@
 
 \fancypagestyle{plain}{
     % \renewcommand{\headrulewidth}{0.4pt}
-    \renewcommand{\footrulewidth}{0.4pt}
     \renewcommand{\headrulewidth}{0pt}
+    \renewcommand{\footrulewidth}{0.4pt}
     % \renewcommand{\footrulewidth}{0pt}
     \fancyhf{}
     \fancyheadoffset[r]{30mm}
@@ -77,7 +77,7 @@
         % \includegraphics[width=24mm, height=24mm]{neruthes-grandseal-core.png}
         \includegraphics[width=24mm, height=24mm]{neruthes-force-circle-for-square.png}
     }
-    \lfoot{\vspace{2pt}\ttfamily\small https://neruthes.xyz}
+    \lfoot{\vspace{2pt}\ttfamily\footnotesize https://neruthes.xyz}
     \cfoot{}
-    \rfoot{\vspace{2pt}\ttfamily\small i@neruthes.xyz}
+    \rfoot{\vspace{2pt}\ttfamily\footnotesize i@neruthes.xyz}
 }
