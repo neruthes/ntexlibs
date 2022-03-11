@@ -1,4 +1,4 @@
-\usepackage[a4paper,lmargin=60mm,rmargin=20mm,tmargin=25mm,bmargin=85mm]{geometry}
+\usepackage[a4paper,textwidth=33em,rmargin=24mm,tmargin=55mm,bmargin=30mm]{geometry}
 \usepackage{calc}
 \usepackage{amsmath,xltxtra,fontspec,xunicode}
 \usepackage{titlesec}
@@ -18,8 +18,11 @@
 \usepackage{multicol}
 \usepackage{fancyhdr}
 \usepackage{ragged2e}
-\setmainfont{Charter}
-\setromanfont{Charter}
+\usepackage{graphicx,eso-pic}
+% Good fonts: Libertinus Serif, Literata
+% Cannot work for Ellada: Noticia Text, STIX Two Text, Libre Caslon Text, Baskervaldx, BaskervilleF, Diaria Pro, Domitian
+\setmainfont{Seravek}
+\setromanfont{Seravek}
 \setsansfont{Seravek}
 \setmonofont{JetBrains Mono NL}
 \setCJKmainfont{Noto Serif SC}
@@ -53,48 +56,51 @@
 \input{/home/neruthes/DEV/ntexlibs/lib/_common.tex}
 
 
-\setlength{\headheight}{55mm}
 \setlength{\footskip}{19pt}
 
 \graphicspath{ {/home/neruthes/DEV/ntexlibs/pic/} }
 
-\fancypagestyle{plain}{
-    \renewcommand{\headrulewidth}{0pt}
-    \renewcommand{\footrulewidth}{0pt}
-    \fancyhf{}
-    \fancyheadoffset[l]{50mm}
-    \fancyfootoffset[l]{50mm}
-    \lhead{
-        \begin{minipage}{180mm}
-            \tabulinesep=4pt
-            \tabcolsep=0pt
-            \fontspec{Noto Sans Display SemiCondensed}
-            \sffamily\small
-            \setlength{\baselineskip}{19pt}
-            \begin{tabu} {rXr}
-                {
-                    \hspace{38mm}
-                } & {
-                    \hspace{10mm}\huge\fontspec{Cinzel} Neruthes
-                } & {} \\
-                {} & {
-                    \vspace{2pt}\hspace{10.5mm}\small\fontspec{Noto Serif CJK SC}\CJKfontspec{Noto Serif CJK SC} Νερυτηες / 奈卢修斯 / 네루쎄스 / ネルセス
-                } \\
-                {\vspace{39mm}} & {} & {} \\
-                \makecell[r]{\sffamily\recipientaddress} & {} & {} \\
-                {\vspace{168mm}} & {} & {} \\
-                \footnotesize\ttfamily\makecell[r]{
-                    0x5200DF38 \\
-                    {i@neruthes.xyz} \\
-                } & {} & {} \\
-            \end{tabu}
+\linespread{1.05}
+
+
+% Address Box
+\newcommand{\recipientaddress}[1]{
+    \AddToShipoutPictureFG*{\put(24mm,238mm){%
+        \begin{minipage}[t][80mm][t]{35mm}
+            \sffamily
+            \mdseries
+            \footnotesize
+            \raggedright
+            \parskip=5pt
+            #1
         \end{minipage}
-    }
-    \chead{}
-    \rhead{
-    }
-    \lfoot{
-    }
-    \cfoot{}
-    \rfoot{}
+    }}
 }
+
+% Top Bar
+\AddToShipoutPictureFG{\put(24mm,275mm){%
+    \begin{minipage}[t][50mm][t]{\paperwidth-48mm}
+        \footnotesize\fontspec{Noto Serif CJK SC}\CJKfontspec{Noto Serif CJK SC}
+        \newcommand{\dotsep}{
+            % \hspace{0.5em}·\hspace{0.5em}
+            % \hfill{}·\hfill{}
+            \hfill{}
+        }
+        Neruthes\dotsep{}Νερυτηες\dotsep{}奈卢修斯\dotsep{}네루쎄스\dotsep{}ネルセス
+
+        \vspace{2mm}\hrule
+    \end{minipage}
+}}
+
+% BottomLeft Corner
+\AddToShipoutPictureFG{\put(24mm,25mm){%
+    \begin{minipage}{35mm}
+        \sffamily\mdseries\footnotesize
+        % \flushright
+        Neruthes\\
+        i@neruthes.xyz
+    \end{minipage}
+}}
+    
+\pagestyle{empty}
+

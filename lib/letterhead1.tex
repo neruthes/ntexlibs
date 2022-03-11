@@ -1,4 +1,4 @@
-\usepackage[a4paper,lmargin=20mm,rmargin=50mm,tmargin=20mm,bmargin=53mm]{geometry}
+\usepackage[a4paper,lmargin=25mm,textwidth=33em,tmargin=20mm,bmargin=53mm]{geometry}
 \usepackage{calc}
 \usepackage{amsmath,xltxtra,fontspec,xunicode}
 \usepackage{titlesec}
@@ -17,15 +17,16 @@
 \usepackage{multirow}
 \usepackage{multicol}
 \usepackage{fancyhdr}
-\usepackage{ragged2e}
-\setmainfont{Charter}
-\setromanfont{Charter}
+\usepackage{graphicx,eso-pic}
+% Optional fonts: Libertinus Serif, Tinos, Literata
+\setmainfont{Tinos}
+\setromanfont{Tinos}
 \setsansfont{Seravek}
 \setmonofont{JetBrains Mono}
-\setCJKmainfont{Noto Serif SC}
-\setCJKromanfont{Noto Serif SC}
-\setCJKsansfont{Noto Sans SC}
-\setCJKmonofont{Noto Sans SC}
+\setCJKmainfont{Noto Serif CJK SC}
+\setCJKromanfont{Noto Serif CJK SC}
+\setCJKsansfont{Noto Sans CJK SC}
+\setCJKmonofont{Noto Sans CJK SC}
 \author{Neruthes}
 % =========================================
 
@@ -58,26 +59,40 @@
 
 \graphicspath{ {/home/neruthes/DEV/ntexlibs/pic/} }
 
+\linespread{1.0}
+
 \fancypagestyle{plain}{
     % \renewcommand{\headrulewidth}{0.4pt}
     \renewcommand{\headrulewidth}{0pt}
     \renewcommand{\footrulewidth}{0.4pt}
     % \renewcommand{\footrulewidth}{0pt}
     \fancyhf{}
-    \fancyheadoffset[r]{30mm}
-    \fancyfootoffset[r]{30mm}
-    \lhead{
-        \ttfamily
-        {\Large\bfseries NERUTHES} \\
-        \vspace{6pt}
-        {\small CB0A BC77 5644 0D12 915E 3F25 AFB3 373F 5200 DF38} \\
-    }
+    % \fancyheadoffset[r]{30mm}
+    \fancyfootoffset[r]{210mm-33em-50mm}
+    \lhead{}
     \chead{}
-    \rhead{
-        % \includegraphics[width=24mm, height=24mm]{neruthes-grandseal-core.png}
-        \includegraphics[width=24mm, height=24mm]{neruthes-force-circle-for-square.png}
-    }
-    \lfoot{\vspace{2pt}\ttfamily\footnotesize https://neruthes.xyz}
+    \rhead{}
+    \lfoot{\vspace{2pt}\ttfamily\footnotesize\fontsize{8pt}{10pt}\selectfont https://neruthes.xyz}
     \cfoot{}
-    \rfoot{\vspace{2pt}\ttfamily\footnotesize i@neruthes.xyz}
+    \rfoot{\vspace{2pt}\ttfamily\footnotesize\fontsize{8pt}{10pt}\selectfont i@neruthes.xyz}
 }
+\pagestyle{plain}
+
+
+
+\newcommand{\recipientaddress}[1]{
+    \begin{minipage}{\linewidth}
+        \sffamily
+        \mdseries
+        \footnotesize
+        \raggedright
+        #1
+    \end{minipage}
+    \vspace{15mm}
+}
+
+
+
+\AddToShipoutPictureFG{\put(210mm-23mm-25mm,297mm-23mm-19mm){%
+    \includegraphics[width=23mm, height=23mm]{neruthes-force-circle-for-square.png}%
+}}
