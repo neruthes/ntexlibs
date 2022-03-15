@@ -44,15 +44,14 @@
 
 \fancypagestyle{plain}{
     \renewcommand{\headrulewidth}{0pt}
-    \renewcommand{\footrulewidth}{0.4pt}
+    \renewcommand{\footrulewidth}{0pt}
     \fancyhf{}
-    \fancyfootoffset[r]{210mm-33em-50mm}
     \lhead{}
     \chead{}
     \rhead{}
-    \lfoot{\vspace{2pt}\ttfamily\footnotesize\fontsize{8pt}{10pt}\selectfont https://neruthes.xyz}
+    \lfoot{}
     \cfoot{}
-    \rfoot{\vspace{2pt}\ttfamily\footnotesize\fontsize{8pt}{10pt}\selectfont i@neruthes.xyz}
+    \rfoot{}
 }
 \pagestyle{plain}
 \pagestyle{empty}
@@ -77,20 +76,25 @@
         #2
     \end{minipage}\vspace{5em}
 }
+\newcommand{\ifootcorner}[0]{i@neruthes.xyz}
+\newcommand{\usepagenumfoot}[0]{
+    \renewcommand{\ifootcorner}{\thepage}
+}
 
 
 % Decorations
-\AddToShipoutPictureFG{\put(210mm-23mm-25mm,297mm-23mm-19mm){%
-    \includesvg[width=23mm]{neruthes-force-circle-for-square}%
+\AddToShipoutPictureFG{\put(210mm-19mm-25mm,297mm-19mm-16mm){%
+    \includegraphics[width=19mm]{neruthes-force-circle-for-circle.png}%
+    % \includesvg[width=19mm]{neruthes-force-circle-for-circle}%
 }}
-\AddToShipoutPictureFG{\put(23mm,15mm){%
-    \begin{minipage}{\paperwidth-23mm-23mm}
+\AddToShipoutPictureFG{\put(25mm,15mm){%
+    \begin{minipage}{\paperwidth-25mm-25mm}
         \hrule
         \vspace{4pt}
 
         \ttfamily\fontsize{8pt}{10pt}\selectfont
         https://neruthes.xyz
         \hfill
-        i@neruthes.xyz
+        \ifootcorner
     \end{minipage}
 }}
