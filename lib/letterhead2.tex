@@ -40,7 +40,7 @@
 \linespread{1.05}
 
 
-% Address Box
+% Components
 \newcommand{\recipientaddress}[1]{
     \AddToShipoutPictureFG*{\put(24mm,238mm){%
         \begin{minipage}[t][80mm][t]{35mm}
@@ -53,6 +53,18 @@
         \end{minipage}
     }}
 }
+\newcommand{\lettersignature}[2]{
+    % $1=leftOffset  $2=content
+    \vspace{3em}
+    \vfill
+    \hfill\begin{minipage}{\textwidth-#1}
+        #2
+    \end{minipage}\vspace{5em}
+}
+
+
+
+
 
 % Top Bar
 \AddToShipoutPictureFG{\put(24mm,275mm){%

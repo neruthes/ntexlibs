@@ -4,6 +4,7 @@
 \usepackage{titlesec}
 
 
+
 \usepackage[PunctStyle=plain,RubberPunctSkip=false]{xeCJK}
 \XeTeXlinebreaklocale "zh" 
 \XeTeXlinebreakskip = 0pt plus 1pt 
@@ -11,6 +12,8 @@
 % =========================================
 \usepackage{fancyhdr}
 \usepackage{graphicx,eso-pic}
+\usepackage{svg}
+
 % Optional fonts: Libertinus Serif, Tinos, Literata
 \setmainfont{Tinos}
 \setromanfont{Tinos}
@@ -26,7 +29,7 @@
 % =========================================
 % START NERUTHES CONFIG
 \setlength{\parindent}{0pt}
-\setlength{\parskip}{5pt}
+\setlength{\parskip}{8pt}
 % END NERUTHES CONFIG
 % =========================================
 
@@ -52,9 +55,10 @@
     \rfoot{\vspace{2pt}\ttfamily\footnotesize\fontsize{8pt}{10pt}\selectfont i@neruthes.xyz}
 }
 \pagestyle{plain}
+\pagestyle{empty}
 
 
-
+% Components
 \newcommand{\recipientaddress}[1]{
     \begin{minipage}{\linewidth}
         \sffamily
@@ -65,9 +69,28 @@
     \end{minipage}
     \vspace{15mm}
 }
+\newcommand{\lettersignature}[2]{
+    % $1=leftOffset  $2=content
+    \vspace{3em}
+    \vfill
+    \hfill\begin{minipage}{\textwidth-#1}
+        #2
+    \end{minipage}\vspace{5em}
+}
 
 
-
+% Decorations
 \AddToShipoutPictureFG{\put(210mm-23mm-25mm,297mm-23mm-19mm){%
-    \includegraphics[width=23mm, height=23mm]{neruthes-force-circle-for-square.png}%
+    \includesvg[width=23mm]{neruthes-force-circle-for-square}%
+}}
+\AddToShipoutPictureFG{\put(23mm,15mm){%
+    \begin{minipage}{\paperwidth-23mm-23mm}
+        \hrule
+        \vspace{4pt}
+
+        \ttfamily\fontsize{8pt}{10pt}\selectfont
+        https://neruthes.xyz
+        \hfill
+        i@neruthes.xyz
+    \end{minipage}
 }}
