@@ -1,0 +1,88 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[a4paper,textwidth=39em,tmargin=20mm,bmargin=43mm]{geometry}
+\usepackage{calc}
+\usepackage{amsmath,xltxtra,fontspec,xunicode}
+\usepackage{titlesec}
+
+\usepackage{datetime2}
+\usepackage[hidelinks]{hyperref}
+\hypersetup{
+    colorlinks=false,
+    pdfpagemode=FullScreen
+}
+
+
+
+\usepackage[PunctStyle=plain,RubberPunctSkip=false]{xeCJK}
+\XeTeXlinebreaklocale "zh" 
+\XeTeXlinebreakskip = 0pt plus 1pt 
+
+% =========================================
+\usepackage{fancyhdr}
+\usepackage{graphicx,eso-pic}
+\usepackage{svg}
+
+% Optional fonts: Libertinus Serif, Tinos, Literata
+\setmainfont{NewComputerModern}
+\setromanfont{NewComputerModern}
+\setsansfont{Inter}
+\setmonofont{JetBrains Mono NL}
+\setCJKmainfont{Noto Serif CJK SC}
+\setCJKromanfont{Noto Serif CJK SC}
+\setCJKsansfont{Noto Sans CJK SC}
+\setCJKmonofont{Noto Sans CJK SC}
+% =========================================
+
+% =========================================
+% START NERUTHES CONFIG
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{8pt}
+% END NERUTHES CONFIG
+% =========================================
+
+
+\setlength{\headheight}{30mm}
+
+\graphicspath{ {/home/neruthes/DEV/ntexlibs/pic/} {./.pic/}}
+
+\linespread{1.15}
+
+% \fancypagestyle{plain}{
+%     \renewcommand{\headrulewidth}{0pt}
+%     \renewcommand{\footrulewidth}{0pt}
+%     \fancyhf{}
+%     \lhead{}
+%     \chead{}
+%     \rhead{}
+%     \lfoot{}
+%     \cfoot{}
+%     \rfoot{}
+% }
+% \pagestyle{plain}
+% \pagestyle{empty}
+
+
+% Components
+\renewcommand{\maketitle}[3]{
+    % $1=title $2=author $3=date
+    \begin{minipage}{\linewidth}
+        \center
+        \rmfamily
+        \fontspec[Ligatures=TeX]{Latin Modern Roman}
+        \LARGE
+        #1
+        \vspace{10pt}
+        
+        \rmfamily
+        \normalsize
+        #2
+        \vspace{5pt}
+
+        \small
+        #3
+    \end{minipage}
+}
+
+
+
+% Decorations
