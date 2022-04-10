@@ -1,0 +1,114 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+
+\documentclass[a4paper,12pt]{article}
+
+\usepackage[a4paper,textwidth=34em,tmargin=36mm,bmargin=36mm]{geometry}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{calc}
+\usepackage{amsmath,xltxtra,xunicode}
+\usepackage{titlesec}
+\usepackage{fontspec}
+\usepackage{wasysym,oz,pxfonts,txfonts}
+
+
+\usepackage[PunctStyle=plain,RubberPunctSkip=false,CJKglue=]{xeCJK}
+\usepackage{xeCJKfntef}
+\defaultCJKfontfeatures{Script=CJK}
+\XeTeXlinebreaklocale "zh"
+\XeTeXlinebreakskip = 0pt plus 1pt
+
+% =========================================
+\usepackage{paralist}
+\usepackage{enumerate}
+\usepackage{enumitem}
+\usepackage{longtable}
+\usepackage{tabu}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usepackage{eso-pic}
+\graphicspath{ {/home/neruthes/DEV/ntexlibs/pic} }
+% \graphicspath{ {/home/neruthes/DEV/ntexdb/.pic} }
+
+\usepackage[OT1]{fontenc}
+% \usepackage{nimbusserif}
+
+% Serif fonts: FreeSerif, QTPalatine, EB Garamond, Tinos, Calluna, Cardo, Libre Caslon Text, Theano Didot, STEP
+\setmainfont{FreeSerif}
+\setromanfont{FreeSerif}
+\setsansfont{Inter}
+\setmonofont{Inconsolata}
+\setCJKmainfont[AutoFakeBold]{FandolFang}
+\setCJKromanfont[AutoFakeBold]{FandolFang}
+\setCJKsansfont{Noto Sans CJK SC}
+\setCJKmonofont{Noto Sans CJK SC}
+
+% \usepackage{indentfirst}
+
+\title{}
+\author{}
+\date{}
+% =========================================
+
+% =========================================
+% START CORPORATION CONFIG
+\setlength{\parindent}{2em}
+\setlength{\parskip}{5pt}
+% \setlength{\baselineskip}{15pt}
+% END CORPORATION CONFIG
+% =========================================
+
+% =========================================
+% START COMMON STYLESHEET
+
+% END COMMON STYLESHEET
+% =========================================
+
+
+
+
+\linespread{1.25}
+
+
+
+\newcommand{\makedoctitle}[3]{
+    \noindent\begin{minipage}{\linewidth}
+        \center
+        \LARGE
+        \bfseries
+        \fontspec{Noto Serif CJK SC}
+        \CJKfontspec{Noto Serif CJK SC}
+        \textcolor{red}{#1}
+        \vspace{10pt}
+    
+        \small\mdseries
+        #2
+        \vspace{20pt}
+    \end{minipage}
+    
+    {\color{red}{\hrule}}
+    \vspace{30pt}
+    
+    \noindent\begin{minipage}{\linewidth}
+        \center
+        \Large
+        \fontspec{Noto Serif CJK SC}
+        \CJKfontspec{Noto Serif CJK SC}
+        \bfseries
+        #3
+    \end{minipage}
+    \vspace{10pt}
+}
+
+\newcommand{\makesignature}[2]{
+    \vfill
+    \hfill#1\hspace{1em}
+
+    \hfill#2
+    \vfill
+}
+
+
+
+
+\pagestyle{empty}
