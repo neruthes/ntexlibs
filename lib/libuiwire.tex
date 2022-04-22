@@ -2,6 +2,7 @@
 \XeTeXlinebreaklocale "zh"
 \XeTeXlinebreakskip = 0pt plus 1pt
 
+\usepackage{xeCJKfntef}
 \usepackage[OT1]{fontenc}
 \usepackage[dvipsnames]{xcolor}
 \usepackage[hidelinks]{hyperref}
@@ -98,13 +99,17 @@
     % Step 1: Create Left Box
     \begin{minipage}[t][\uiwire@tmpCanvasHeight][t]{#1}%
         \setlength{\uiwire@canvasWidth}{#1}%
-        \setlength{\uiwire@canvasHeight}{\uiwire@tmpCanvasHeight}%
+        \setlength{\uiwire@canvasHeight}{\uiwire@tmpCanvasHeight-6pt}%
+        \setlength{\linewidth}{\uiwire@canvasWidth-10pt}%
+        \vspace{6pt}%
         #2%
     \end{minipage}\hfill\vrule\hfill%
     % Step 2: Create Right Box
-    \begin{minipage}[t][\uiwire@tmpCanvasHeight][t]{\uiwire@canvasWidth-#1-12pt}%
-        \setlength{\uiwire@canvasWidth}{\uiwire@canvasWidth-#1-12pt}%
-        \setlength{\uiwire@canvasHeight}{\uiwire@tmpCanvasHeight}%
+    \begin{minipage}[t][\uiwire@tmpCanvasHeight][t]{\uiwire@canvasWidth-#1-10pt}%
+        \setlength{\uiwire@canvasWidth}{\uiwire@canvasWidth-#1-10pt}%
+        \setlength{\uiwire@canvasHeight}{\uiwire@tmpCanvasHeight-6pt}%
+        \setlength{\linewidth}{\uiwire@canvasWidth-10pt}%
+        \vspace{6pt}%
         #3%
     \end{minipage}%
 }
@@ -119,9 +124,9 @@
         #2%
     \end{minipage}\vfill\hrule\vfill%
     % Step 2: Create Bottom Box
-    \begin{minipage}[t][\uiwire@tmpCanvasHeight-#1-12pt][t]{\uiwire@canvasWidth}%
+    \begin{minipage}[t][\uiwire@tmpCanvasHeight-#1-2pt][t]{\uiwire@canvasWidth}%
         \setlength{\uiwire@canvasWidth}{\uiwire@tmpCanvasWidth}%
-        \setlength{\uiwire@canvasHeight}{\uiwire@canvasHeight-#1-12pt}%
+        \setlength{\uiwire@canvasHeight}{\uiwire@canvasHeight-#1-2pt}%
         #3%
     \end{minipage}%
 }
@@ -203,7 +208,7 @@
 		\vspace{1mm}
 		\UICSlotContentTopbar
 		\vspace{2mm}
-	\end{minipage}\par\hrule
+	\end{minipage}
 	% \begin{tcolorbox}[height=\uicdim@topbarheight+2mm,width=\linewidth,arc=0mm,top=0mm,bottom=0mm,left=0mm,right=0mm,nobeforeafter,colback=white,colframe=red,boxrule=0.5pt]
 	%     \UICSlotContentTopbar\par
 	%     \vspace{2mm}
