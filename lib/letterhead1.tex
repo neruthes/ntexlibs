@@ -12,7 +12,7 @@
 
 
 
-\usepackage[PunctStyle=plain,RubberPunctSkip=false]{xeCJK}
+\usepackage[PunctStyle=plain,RubberPunctSkip=false,CJKglue=\hskip 0pt,CJKecglue=\hskip 4pt]{xeCJK}
 \XeTeXlinebreaklocale "zh" 
 \XeTeXlinebreakskip = 0pt plus 1pt 
 
@@ -25,9 +25,9 @@
 \setmainfont{Tinos}
 \setromanfont{Tinos}
 \setsansfont{Seravek}
-\setmonofont{JetBrains Mono}
-\setCJKmainfont{Noto Serif CJK SC}
-\setCJKromanfont{Noto Serif CJK SC}
+\setmonofont{JetBrains Mono NL}
+\setCJKmainfont{FandolSong}
+\setCJKromanfont{FandolSong}
 \setCJKsansfont{Noto Sans CJK SC}
 \setCJKmonofont{Noto Sans CJK SC}
 \author{Neruthes}
@@ -83,9 +83,12 @@
         #2
     \end{minipage}\vspace{5em}
 }
-\newcommand{\ifootcorner}[0]{i@neruthes.xyz}
+\newcommand{\letterfooterfont}[0]{\fontspec[Ligatures=TeX]{NewComputerModern}\CJKfontspec{FandolSong}}
+\renewcommand{\letterfooterfont}[0]{\ttfamily\fontsize{8pt}{10pt}\selectfont}
+\newcommand{\ifootcornerL}[0]{https://neruthes.xyz}
+\newcommand{\ifootcornerR}[0]{i@neruthes.xyz}
 \newcommand{\usepagenumfoot}[0]{
-    \renewcommand{\ifootcorner}{\thepage}
+    \renewcommand{\ifootcornerR}{\thepage}
 }
 
 
@@ -99,9 +102,9 @@
         \hrule
         \vspace{4pt}
 
-        \ttfamily\fontsize{8pt}{10pt}\selectfont
-        https://neruthes.xyz
+        \letterfooterfont
+        \ifootcornerL
         \hfill
-        \ifootcorner
+        \ifootcornerR
     \end{minipage}
 }}
