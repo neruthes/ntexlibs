@@ -3,6 +3,8 @@
 \usepackage{amsmath,xltxtra,fontspec,xunicode}
 \usepackage{titlesec}
 
+\usepackage{enumerate,enumitem,paralist}
+
 \usepackage{datetime2}
 \usepackage[hidelinks]{hyperref}
 \hypersetup{
@@ -29,8 +31,26 @@
 \setCJKromanfont{FandolSong}
 \setCJKsansfont{Noto Sans CJK SC}
 \setCJKmonofont{Noto Sans CJK SC}
-\author{Neruthes}
 % =========================================
+
+% Document metadata
+\newcommand{\cacheddoctitle}[0]{Untitled Document}
+\newcommand{\cacheddocauthor}[0]{Unknown Author}
+\newcommand{\cacheddocdate}[0]{\today}
+\newcommand{\docsetup}[3]{
+    \title{#1}
+    \author{#2}
+    \date{#3}
+    \renewcommand{\cacheddoctitle}{#1}
+    \renewcommand{\cacheddocauthor}{#2}
+    \renewcommand{\cacheddocdate}{#3}
+    \hypersetup{
+        colorlinks=false,
+        pdftitle={#1},
+        pdfpagemode=FullScreen,
+    }
+}
+
 
 % =========================================
 % START NERUTHES CONFIG
