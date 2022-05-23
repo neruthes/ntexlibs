@@ -118,15 +118,18 @@
     \includegraphics[width=19mm]{neruthes-force-circle-for-circle.png}%
     % \includesvg[width=19mm]{neruthes-force-circle-for-circle}%
 }}
-\AddToShipoutPictureFG{\put(23mm,15mm){%
-    \begin{minipage}{\paperwidth-23mm-23mm}
-        \hrule
-        \vspace{4pt}
+\newcommand{\letterfooterwidth}[0]{42em}
+\AddToShipoutPictureFG{\put(0,15mm){%
+    \begin{minipage}{\paperwidth}\center
+        \begin{minipage}{\letterfooterwidth}
+            \hrule
+            \vspace{4pt}
 
-        \letterfooterfont
-        \ifootcornerL
-        \hfill
-        \ifootcornerR
+            \letterfooterfont
+            \ifootcornerL
+            \hfill
+            \ifootcornerR
+        \end{minipage}
     \end{minipage}
 }}
 
