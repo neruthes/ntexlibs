@@ -39,8 +39,8 @@
 	\setCJKmonofont{Noto Sans CJK SC}
 }
 \newcommand{\FontsetOldstyle}[0]{
-	\setmainfont{LiberationSerif}
-	\setromanfont{LiberationSerif}
+	\setmainfont{Nimbus Roman}
+	\setromanfont{Nimbus Roman}
 	\setsansfont{Helvetica Neue}
 	\setmonofont{Courier Prime}
 	\setCJKmainfont{FandolSong}
@@ -58,3 +58,14 @@
 	\setCJKsansfont{Noto Sans CJK SC}
 	\setCJKmonofont{Noto Sans CJK SC}
 }
+
+
+% Change font locally
+
+\newcommand{\usefontGenericRoman}[0]{\fontspec[Ligatures=TeX]{Tinos}}
+\newcommand{\usefontPaperRoman}[0]{\fontspec[Ligatures=TeX]{NewComputerModern}}
+\newcommand{\usefontBookRoman}[0]{\fontspec[Ligatures=TeX]{QTPalatine}}
+\newcommand{\usefontLegalRoman}[0]{\fontspec[Ligatures=TeX]{QTBookmann}}
+\newcommand{\usefontOldstyleRoman}[0]{\fontspec[Ligatures=TeX]{Nimbus Roman}}
+
+\newcommand{\usefontPaperSans}[0]{\fontspec[Ligatures=TeX]{Inter}}
