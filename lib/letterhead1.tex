@@ -14,7 +14,7 @@
 
 
 
-\usepackage[PunctStyle=plain,RubberPunctSkip=false,CJKglue=\hskip 0pt,CJKecglue=\hskip 4pt]{xeCJK}
+\usepackage[PunctStyle=plain,RubberPunctSkip=false,CJKglue=,CJKecglue=\hskip 4pt plus 20pt]{xeCJK}
 \usepackage{xeCJKfntef}
 \XeTeXlinebreaklocale "zh"
 \XeTeXlinebreakskip = 0pt plus 1pt
@@ -94,13 +94,17 @@
     \end{minipage}
     \vspace{15mm}
 }
+\newcommand{\lettersection}[1]{\vskip 1em\noindent\textbf{#1}\par}
 \newcommand{\lettersignature}[2]{
     % $1=leftOffset  $2=content
+    \parskip=8pt
     \vspace{3em}
-    \vfill
+    \vfill\noindent
     \hfill\begin{minipage}{\textwidth-#1}
         #2
     \end{minipage}\vspace{5em}
+    \vfill
+    \vfill
 }
 \newcommand{\letterfooterfont}[0]{\fontspec[Ligatures=TeX]{NewComputerModern}\CJKfontspec{FandolSong}}
 \renewcommand{\letterfooterfont}[0]{\ttfamily\fontsize{8pt}{10pt}\selectfont}
