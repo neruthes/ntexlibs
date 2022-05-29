@@ -95,14 +95,19 @@
     \vspace{15mm}
 }
 \newcommand{\lettersection}[1]{\vskip 1em\noindent\textbf{#1}\par}
+\newlength{\lettersignaturewidth}
 \newcommand{\lettersignature}[2]{
-    % $1=leftOffset  $2=content
+    % $1=content $2=widestline
+    \settowidth{\lettersignaturewidth}{#2}
     \parskip=8pt
     \vspace{3em}
     \vfill\noindent
-    \hfill\begin{minipage}{\textwidth-#1}
-        #2
-    \end{minipage}\vspace{5em}
+    \fboxsep=0pt
+    \hfill
+    \begin{minipage}{\lettersignaturewidth}
+        #1
+    \end{minipage}\par
+    \vspace{5em}
     \vfill
     \vfill
 }
