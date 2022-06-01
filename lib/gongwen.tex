@@ -12,7 +12,7 @@
 \usepackage{wasysym,oz,pxfonts,txfonts}
 
 
-\usepackage[PunctStyle=plain,RubberPunctSkip=false,CJKglue=]{xeCJK}
+\usepackage[PunctStyle=plain,RubberPunctSkip=false,CJKglue=\hskip 0pt,CJKecglue=\hskip 4pt plus 20pt]{xeCJK}
 \usepackage{xeCJKfntef}
 \defaultCJKfontfeatures{Script=CJK}
 \XeTeXlinebreaklocale "zh"
@@ -48,12 +48,12 @@
 % \usepackage{nimbusserif}
 
 % Serif fonts: FreeSerif, QTPalatine, EB Garamond, Tinos, Calluna, Cardo, Libre Caslon Text, Theano Didot, STEP
-\setmainfont{FreeSerif}
-\setromanfont{FreeSerif}
+\setmainfont{Nimbus Roman}
+\setromanfont{Nimbus Roman}
 \setsansfont{Inter}
 \setmonofont{Inconsolata}
-\setCJKmainfont[AutoFakeBold]{FandolFang}
-\setCJKromanfont[AutoFakeBold]{FandolFang}
+\setCJKmainfont[AutoFakeBold={3.12}]{FandolFang}
+\setCJKromanfont[AutoFakeBold={3.12}]{FandolFang}
 \setCJKsansfont{Noto Sans CJK SC}
 \setCJKmonofont{Noto Sans CJK SC}
 
@@ -93,11 +93,11 @@
         \bfseries
         \fontspec{Noto Serif CJK SC}
         \CJKfontspec{Noto Serif CJK SC}
-        \textcolor{red}{#1}
+        \textcolor{red}{#1}\par
         \vspace{10pt}
     
         \small\mdseries
-        #2
+        #2\par
         \vspace{20pt}
     \end{minipage}
     
@@ -110,7 +110,7 @@
         \fontspec{Noto Serif CJK SC}
         \CJKfontspec{Noto Serif CJK SC}
         \bfseries
-        #3
+        #3\par
     \end{minipage}
     \vspace{10pt}
 }
@@ -118,8 +118,8 @@
 \newcommand{\makesignature}[1]{
     \vfill
     \hfill\begin{minipage}{0.5\linewidth}
-        \center#1
-    \end{minipage}
+        \center#1\par
+    \end{minipage}\par
     \vfill
     \clearpage
 }
