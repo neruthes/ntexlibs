@@ -57,8 +57,8 @@
 \newlength{\uiwire@canvasHeight}
 
 % Swap variables
-\newlength{\uiwire@tmpCanvasWidth}
-\newlength{\uiwire@tmpCanvasHeight}
+\newlength{\uiwire@parentCanvasWidth}
+\newlength{\uiwire@parentCanvasHeight}
 
 
 
@@ -94,20 +94,20 @@
 
 \newcommand{\leftNright}[3]{%
     % $1=leftWidth $2=leftContent $3=rightContent
-    \setlength{\uiwire@tmpCanvasWidth}{\uiwire@canvasWidth}%
-    \setlength{\uiwire@tmpCanvasHeight}{\uiwire@canvasHeight}%
+    \setlength{\uiwire@parentCanvasWidth}{\uiwire@canvasWidth}%
+    \setlength{\uiwire@parentCanvasHeight}{\uiwire@canvasHeight}%
     % Step 1: Create Left Box
-    \begin{minipage}[t][\uiwire@tmpCanvasHeight][t]{#1}%
+    \begin{minipage}[t][\uiwire@parentCanvasHeight][t]{#1}%
         \setlength{\uiwire@canvasWidth}{#1}%
-        \setlength{\uiwire@canvasHeight}{\uiwire@tmpCanvasHeight-6pt}%
+        \setlength{\uiwire@canvasHeight}{\uiwire@parentCanvasHeight-6pt}%
         \setlength{\linewidth}{\uiwire@canvasWidth-10pt}%
         \vspace{6pt}%
         #2%
     \end{minipage}\hfill\vrule\hfill%
     % Step 2: Create Right Box
-    \begin{minipage}[t][\uiwire@tmpCanvasHeight][t]{\uiwire@canvasWidth-#1-10pt}%
+    \begin{minipage}[t][\uiwire@parentCanvasHeight][t]{\uiwire@canvasWidth-#1-10pt}%
         \setlength{\uiwire@canvasWidth}{\uiwire@canvasWidth-#1-10pt}%
-        \setlength{\uiwire@canvasHeight}{\uiwire@tmpCanvasHeight-6pt}%
+        \setlength{\uiwire@canvasHeight}{\uiwire@parentCanvasHeight-6pt}%
         \setlength{\linewidth}{\uiwire@canvasWidth-10pt}%
         \vspace{6pt}%
         #3%
@@ -115,18 +115,20 @@
 }
 \newcommand{\topNbottom}[3]{%
     % $1=topHeight $2=topContent $3=bottomContent
-    \setlength{\uiwire@tmpCanvasWidth}{\uiwire@canvasWidth}%
-    \setlength{\uiwire@tmpCanvasHeight}{\uiwire@canvasHeight}%
+    \setlength{\uiwire@parentCanvasWidth}{\uiwire@canvasWidth}%
+    \setlength{\uiwire@parentCanvasHeight}{\uiwire@canvasHeight}%
     % Step 1: Create Top Box
     \begin{minipage}[t][#1][t]{\uiwire@canvasWidth}%
-        \setlength{\uiwire@canvasWidth}{\uiwire@tmpCanvasWidth}%
+        \setlength{\uiwire@canvasWidth}{\uiwire@parentCanvasWidth}%
         \setlength{\uiwire@canvasHeight}{#1}%
+        \setlength{\linewidth}{\uiwire@canvasWidth-10pt}%
         #2%
     \end{minipage}\vfill\hrule\vfill%
     % Step 2: Create Bottom Box
-    \begin{minipage}[t][\uiwire@tmpCanvasHeight-#1-2pt][t]{\uiwire@canvasWidth}%
-        \setlength{\uiwire@canvasWidth}{\uiwire@tmpCanvasWidth}%
+    \begin{minipage}[t][\uiwire@parentCanvasHeight-#1-2pt][t]{\uiwire@canvasWidth}%
+        \setlength{\uiwire@canvasWidth}{\uiwire@parentCanvasWidth}%
         \setlength{\uiwire@canvasHeight}{\uiwire@canvasHeight-#1-2pt}%
+        \setlength{\linewidth}{\uiwire@canvasWidth-10pt}%
         #3%
     \end{minipage}%
 }
@@ -231,6 +233,19 @@
 }
 \newcommand{\uiButton}[1]{
 	\uiButtonCore{#1}{white}{black}{black}
+}
+
+\newcommand{\inputGroupCore}[2]{
+    % $1=label $2=content
+    \begin{minipage}{\linewidth}%
+        \parbox{0.3\linewidth}{#1}%
+        \fbox{
+            \parbox{0.5\linewidth-1pt}{#2}%
+        }
+    \end{minipage}\par
+}
+\newcommand{\inputGroupText}[2]{
+	\inputGroupCore{#1}{#2}
 }
 
 
