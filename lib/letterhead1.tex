@@ -80,20 +80,28 @@
     \cfoot{}
     \rfoot{}
 }
-\pagestyle{plain}
 \pagestyle{empty}
 
 
 % Components
+\newcommand{\emailstyleheader}[3]{
+    % $1=subject $2=from $3=to
+    \parbox{5em}{\textsf{Subject:}}#1\\
+    \parbox{5em}{\textsf{From:}}#2\\
+    \parbox{5em}{\textsf{To:}}#3\\
+}
 \newcommand{\recipientaddress}[1]{
-    \begin{minipage}{\linewidth}
+    % $1=content
+    \noindent\begin{minipage}{\linewidth}
         \sffamily
         \mdseries
         \footnotesize
         \raggedright
         #1
-    \end{minipage}
-    \vspace{15mm}
+    \end{minipage}\par
+    \noindent\rule{0.618\linewidth}{0.4pt}\par
+    % \noindent\rule{12em}{0.4pt}\par
+    \vskip 15mm
 }
 \newcommand{\lettersection}[1]{\vskip 1em\noindent\textbf{#1}\par}
 \newlength{\lettersignaturewidth}
@@ -106,7 +114,8 @@
     \fboxsep=0pt
     \hfill
     \begin{minipage}{\lettersignaturewidth}
-        #1
+        \parskip=8pt%
+        #1\par
     \end{minipage}\par
     \vspace{5em}
     \vfill
