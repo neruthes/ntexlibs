@@ -93,9 +93,10 @@
 \newcommand{\recipientaddress}[1]{
     % $1=content
     \noindent\begin{minipage}{\linewidth}
-        \sffamily
+        % \sffamily
+        \fontspec{Linux Libertine O}
         \mdseries
-        \footnotesize
+        \small
         \raggedright
         #1
     \end{minipage}\par
@@ -133,7 +134,6 @@
 % Decorations
 \AddToShipoutPictureFG{\put(210mm-19mm-25mm,297mm-19mm-16mm){%
     \includegraphics[width=19mm]{neruthes-force-circle-for-circle.png}%
-    % \includesvg[width=19mm]{neruthes-force-circle-for-circle}%
 }}
 \newcommand{\letterfooterwidth}[0]{42em}
 \AddToShipoutPictureFG{\put(0,15mm){%
