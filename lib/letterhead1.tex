@@ -3,7 +3,7 @@
 \usepackage{amsmath,xltxtra,fontspec,xunicode}
 \usepackage{titlesec}
 
-\usepackage{paralist,enumerate,enumitem}
+\usepackage{paralist,enumerate,enumitem,varwidth}
 \setdefaultleftmargin{2em}{2em}{1em}{1em}{1em}{1em}
 
 \usepackage{datetime2}
@@ -94,7 +94,8 @@
     % $1=content
     \noindent\begin{minipage}{\linewidth}
         % \sffamily
-        \fontspec{Linux Libertine O}
+        % \fontspec[Ligatures=TeX]{Linux Libertine O}
+        \fontspec[Ligatures=TeX]{Myriad Pro}
         \mdseries
         \small
         \raggedright
@@ -110,7 +111,7 @@
     % $1=content $2=widestline
     \settowidth{\lettersignaturewidth}{#2}
     \parskip=8pt
-    \vspace{3em}
+    \vskip 1.5em
     \vfill\noindent
     \fboxsep=0pt
     \hfill
@@ -118,7 +119,7 @@
         \parskip=8pt%
         #1\par
     \end{minipage}\par
-    \vspace{5em}
+    \vskip 1.5em
     \vfill
     \vfill
 }
