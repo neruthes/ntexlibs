@@ -1,0 +1,57 @@
+% \usepackage[textwidth=40em,tmargin=24mm,bmargin=33mm]{geometry}
+\usepackage{calc}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{amsmath,amssymb,xltxtra,fontspec,xunicode,tocloft}
+\usepackage{graphicx,eso-pic,datetime2,tabu,tcolorbox}
+
+\usepackage{paralist,enumitem,varwidth}
+\setdefaultleftmargin{2em}{2em}{1em}{1em}{1em}{1em}
+
+\usepackage[hidelinks]{hyperref}
+\hypersetup{
+    colorlinks=false,
+    pdfpagemode=FullScreen
+}
+
+
+
+\usepackage[PunctStyle=plain,RubberPunctSkip=false,CJKglue=\hskip 0pt,CJKecglue=\hskip 4pt plus 20pt]{xeCJK}
+\usepackage{xeCJKfntef}
+
+% Optional fonts: Libertinus Serif, Tinos, Literata
+\setmainfont{Noto Serif}
+\setromanfont{Noto Serif}
+\setsansfont{Noto Sans}
+\setmonofont{JetBrains Mono NL}
+\setCJKmainfont{Noto Serif CJK SC}
+\setCJKromanfont{Noto Serif CJK SC}
+\setCJKsansfont{Noto Sans CJK SC}
+\setCJKmonofont{Noto Sans CJK SC}
+% =========================================
+
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{8pt}
+
+\graphicspath{ {/home/neruthes/DEV/ntexlibs/pic/} }
+
+
+
+
+\frenchspacing
+
+\usepackage{listings}
+\lstset{
+	basicstyle=\ttfamily\footnotesize,
+	numbersep=5pt,
+	backgroundcolor=\color{black!5},
+	showspaces=false,
+	showstringspaces=false,
+	showtabs=false,
+	tabsize=2,
+	captionpos=b,
+	breaklines=true,
+	breakatwhitespace=true,
+	breakautoindent=true,
+	linewidth=\textwidth
+}
