@@ -1,0 +1,80 @@
+% This file should be used as header for Pandoc (with xelatex).
+% Ideally use this script:
+%   https://github.com/neruthes/NDevShellRC/blob/master/bin/mdtoslides
+
+
+% Copyright (c) 2023 Neruthes.
+% Published under GNU GPLv2 license. The full text may be found at
+% <https://www.gnu.org/licenses/old-licenses/gpl-2.0.html>.
+
+
+
+
+\usepackage{xeCJK,xeCJKfntef,titlesec,fancyhdr,verbatim,xcolor}
+\usepackage[hidelinks]{hyperref}
+
+
+\newcommand{\trysetfont}[2]{\IfFontExistsTF{#2}{#1{#2}}{}}
+% Western
+\trysetfont{\setmainfont}{Libertinus Serif}
+\trysetfont{\setmainfont}{NewComputerModern}
+\trysetfont{\setromanfont}{Libertinus Serif}
+\trysetfont{\setromanfont}{NewComputerModern}
+\trysetfont{\setsansfont}{Inter}
+\trysetfont{\setsansfont}{Helvetica Neue}
+\trysetfont{\setmonofont}{Courier New}
+\trysetfont{\setmonofont}{Luxi Mono}
+\trysetfont{\setmonofont}{Noto Sans Mono}
+\trysetfont{\setmonofont}{JetBrains Mono}
+% CJK
+\trysetfont{\setCJKmainfont}{FandolSong}
+\trysetfont{\setCJKmainfont}{Noto Serif CJK SC}
+\trysetfont{\setCJKromanfont}{FandolSong}
+\trysetfont{\setCJKromanfont}{Noto Serif CJK SC}
+\trysetfont{\setCJKsansfont}{FandolHei}
+\trysetfont{\setCJKsansfont}{Noto Sans CJK SC}
+\trysetfont{\setCJKmonofont}{FandolHei}
+\trysetfont{\setCJKmonofont}{Noto Sans CJK SC}
+
+
+
+
+\setcounter{tocdepth}{-1}
+\fancypagestyle{plain}{
+    \renewcommand{\headrulewidth}{0pt}
+    \lhead{}
+    \chead{}
+    \rhead{}
+    \lfoot{}
+    \cfoot{}
+    \rfoot{}
+}
+\fancypagestyle{empty}{
+    \renewcommand{\headrulewidth}{0pt}
+    \lhead{}
+    \chead{}
+    \rhead{}
+    \lfoot{}
+    \cfoot{}
+    \rfoot{}
+}
+
+\titleformat*{\section}{\huge\center\rmfamily}
+\titleformat*{\subsection}{\rmfamily}
+\titleformat*{\subsubsection}{\rmfamily}
+\pagestyle{empty}
+
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{7pt}
+
+
+
+\NewCommandCopy{\oldtexttt}{\texttt}
+\renewcommand{\texttt}[1]{\oldtexttt{\textcolor{red!70!black}{{#1}}}}
+
+\NewCommandCopy{\oldhref}{\href}
+\renewcommand{\href}[2]{\textcolor{blue!80!black}{\oldhref{#1}{#2}}}
+
+
+
