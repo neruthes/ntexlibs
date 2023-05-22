@@ -27,8 +27,8 @@
 \usepackage{graphicx,eso-pic}
 
 % Optional fonts: Libertinus Serif, Tinos, Literata
-\setmainfont{Tinos}
-\setromanfont{Tinos}
+\setmainfont{Libertinus Serif}
+\setromanfont{Libertinus Serif}
 \setsansfont{Seravek}
 \setmonofont{JetBrains Mono NL}
 \setCJKmainfont{Noto Serif CJK SC}
@@ -95,8 +95,6 @@
 \newcommand{\recipientaddress}[1]{
     % $1=content
     \noindent\begin{minipage}{\linewidth}
-        % \sffamily
-        % \fontspec[Ligatures=TeX]{Linux Libertine O}
         \fontspec[Ligatures=TeX]{Myriad Pro}
         \mdseries
         \small
@@ -104,7 +102,6 @@
         #1
     \end{minipage}\par
     \noindent\rule{0.618\linewidth}{0.4pt}\par
-    % \noindent\rule{12em}{0.4pt}\par
     \vskip 15mm
 }
 \newcommand{\lettersection}[1]{\vskip 1em\noindent\textbf{#1}\par}
@@ -117,7 +114,7 @@
     \vfill\noindent
     \fboxsep=0pt
     \hfill
-    \begin{minipage}{\lettersignaturewidth}
+    \begin{minipage}{\lettersignaturewidth+0.2pt}
         \parskip=8pt%
         #1\par
     \end{minipage}\par
