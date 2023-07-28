@@ -1,0 +1,55 @@
+% Ver 2023-07-28T02:19:08+00:00
+\usepackage[textwidth=38em]{geometry}
+% \newgeometry{textwidth=40em}
+\usepackage{calc,fontspec,tocloft,longtable,tabu,booktabs,xcolor,datetime2,paralist,enumitem,hyphenat,graphicx,eso-pic}
+\usepackage{amssymb,amsmath,multicol}
+\usepackage[hidelinks]{hyperref}
+\usepackage{xeCJK,xeCJKfntef}
+\xeCJKsetup{PunctStyle=plain,RubberPunctSkip=false,CJKglue=\hskip 0pt,CJKecglue=\hskip 0.35em plus 5em minus 0.09em}
+\setmainfont{NewComputerModern10}
+\setromanfont{NewComputerModern10}
+\setsansfont{TeX Gyre Heros}
+\setmonofont{JetBrains Mono NL}
+\setCJKmainfont{Noto Serif CJK SC}
+\setCJKromanfont{Noto Serif CJK SC}
+\setCJKsansfont{Noto Sans CJK SC}
+\setCJKmonofont{Noto Sans CJK SC}
+
+\setdefaultleftmargin{2em}{2em}{2em}{2em}{2em}{2em}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{5pt}
+\linespread{1.15}
+\setlength{\tabulinesep}{3.5pt}
+\frenchspacing
+
+
+
+% =============================================================================
+% Shared funcitons
+\newcommand{\stdtitle}[3]{
+	\stdtitleInner{#1}{#2}{#3}
+	\par\vskip 20pt%
+	\hrule\vskip 40pt
+}
+\newcommand{\stdtitlepage}[3]{
+	\begin{titlepage}
+		\leavevmode\vfill
+		\stdtitleInner{#1}{#2}{#3}
+		\vfill
+	\end{titlepage}
+}
+\newcommand{\stdtitleInner}[3]{
+	\begin{center}
+		\huge\fontsize{18pt}{21pt}\selectfont#1\par\vskip 20pt
+		\normalsize\fontsize{12pt}{14pt}\selectfont#2\par\vskip 15pt
+		\normalsize\fontsize{12pt}{14pt}\selectfont#3\par\vskip 15pt
+	\end{center}\par%
+}
+\newcommand{\minicaption}[1]{
+	\noindent\parbox{\linewidth}{\centering\small\itshape#1}
+}
+\newcommand{\numcell}[1]{
+    \scalebox{0.85}[1]{\ttfamily\small\fontspec{Droid Sans Mono}#1}
+}
+% =============================================================================
