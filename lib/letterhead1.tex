@@ -104,10 +104,11 @@
     \noindent\rule{0.618\linewidth}{0.4pt}\par
     \vskip 15mm
 }
-\newcommand{\lettersection}[1]{\vskip 1em\noindent\textbf{#1}\par}
+\newcommand{\lettersection}[1]{\vskip 1em\noindent\textbf{#1}\par\nopagebreak}
 \newlength{\lettersignaturewidth}
 \newcommand{\lettersignature}[2]{
     % $1=content $2=widestline
+    \nopagebreak
     \settowidth{\lettersignaturewidth}{#2}
     \parskip=8pt
     \vskip 1.5em
