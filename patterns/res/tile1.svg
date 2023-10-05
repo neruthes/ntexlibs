@@ -1,0 +1,24 @@
+<!-- This SVG is only a demo -->
+<svg width="240" height="auto" viewBox="-32 -48 64 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <g id="tile1-obj1">
+            <path d="M 0,2.00 L 2.00,2.00 2.00,0
+                M 0,6.00 L 6.00,6.00 6.00,0
+                M 0,10.00 L 10.00,10.00 10.00,0
+                M 0,14.00 L 14.00,14.00 14.00,0
+                M 0,18.00 L 14.00,18.00 14.00,34.00 18.00,34.00 18.00,2.00 32.00,2.00
+                M 0,22.00 L 10.00,22.00 10.00,38.00 22.00,38.00 22.00,6.00 32.00,6.00
+                M 0,26.00 L 6.00,26.00 6.00,42.00 26.00,42.00 26.00,10.00 32.00,10.00
+                M 0,30.00 L 2.00,30.00 2.00,46.00 30.00,46.00 30.00,14.00 32.00,14.00
+            " stroke="white" stroke-width="1.0" stroke-linejoin="round" />
+        </g>
+        <g id="tile1">
+            <use href="#tile1-obj1" transform="scale(1,1)" />
+            <use href="#tile1-obj1" transform="scale(1,-1)" />
+            <use href="#tile1-obj1" transform="scale(-1,1)" />
+            <use href="#tile1-obj1" transform="scale(-1,-1)" />
+        </g>
+    </defs>
+    <rect x="-300" y="-300" width="4000" height="4000" fill="gray" />
+    <use href="#tile1" transform="scale(1,1)" />
+</svg>

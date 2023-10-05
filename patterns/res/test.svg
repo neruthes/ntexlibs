@@ -1,0 +1,15 @@
+<svg width="600" height="auto" viewBox="-800 -800 1600 1600" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+    </defs>
+    <ellipse cx="0" cy="300" rx="100" ry="340" stroke="blue" stroke-width="1.0" transform="rotate(-22)" />
+    <ellipse cx="0" cy="300" rx="100" ry="350" stroke="blue" stroke-width="1.0" transform="rotate(-24)" />
+    <ellipse cx="0" cy="300" rx="100" ry="360" stroke="blue" stroke-width="1.0" transform="rotate(-26)" />
+    <ellipse cx="0" cy="300" rx="100" ry="370" stroke="blue" stroke-width="1.0" transform="rotate(-28)" />
+
+    <ellipse cx="0" cy="300" rx="100" ry="380" stroke="blue" stroke-width="1.0" transform="rotate(-30)" />
+    
+    <ellipse cx="0" cy="300" rx="100" ry="370" stroke="blue" stroke-width="1.0" transform="rotate(-32)" />
+    <ellipse cx="0" cy="300" rx="100" ry="360" stroke="blue" stroke-width="1.0" transform="rotate(-34)" />
+    <ellipse cx="0" cy="300" rx="100" ry="350" stroke="blue" stroke-width="1.0" transform="rotate(-36)" />
+    <ellipse cx="0" cy="300" rx="100" ry="340" stroke="blue" stroke-width="1.0" transform="rotate(-38)" />
+</svg>
