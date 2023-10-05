@@ -6,10 +6,10 @@ function makeitem() {
     svg="_dist/p42.$suffix.svg"
     node js/p42.js > "$svg"
     rsvg-convert "$svg" -z3 -o "$svg.png"
-    # rsvg-convert "$svg" -z2 --format=pdf -o "$svg.pdf"
-    realpath "$svg".*
+    rsvg-convert "$svg" -z2 --format=pdf -o "$svg.pdf"
+    realpath "$svg"*
 }
 
 makeitem '000000' 'black'
-# makeitem 'EEEEEE' 'EEEEEE'
-# makeitem 'DDDDDD' 'DDDDDD'
+makeitem 'EEEEEE' 'EEEEEE'
+makeitem 'DDDDDD' 'DDDDDD'
