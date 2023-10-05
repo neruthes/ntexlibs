@@ -1,9 +1,9 @@
 %!TEX TS-program = xelatex
 %!TEX encoding = UTF-8 Unicode
 
-\documentclass[a4paper,10pt]{article}
+\documentclass[a4paper,11pt]{article}
 
-\usepackage[a4paper,textwidth=42em,tmargin=37mm,bmargin=10mm]{geometry}
+\usepackage[a4paper,textwidth=36em,tmargin=37mm,bmargin=32mm]{geometry}
 \usepackage[dvipsnames]{xcolor}
 \usepackage{calc}
 \usepackage{amsmath,xltxtra,xunicode}
@@ -33,16 +33,16 @@
 \usepackage{graphicx}
 \usepackage{tikz}
 \usepackage{eso-pic}
-\graphicspath{ {/home/neruthes/DEV/ntexlibs/pic} }
+\graphicspath{ {/home/neruthes/DEV/ntexlibs} }
 \usepackage{fontawesome5}
 \usepackage{multirow}
 \usepackage{multicol}
 \usepackage{ragged2e}
 \usepackage{tcolorbox}
-\setmainfont{Nimbus Roman}
-\setromanfont{Nimbus Roman}
+\setmainfont{Old Standard TT}
+\setromanfont{Old Standard TT}
 \setsansfont{Inter}
-\setmonofont{ocrb10}
+\setmonofont{New Heterodox Mono}
 \setCJKmainfont{Noto Sans CJK SC}
 \setCJKromanfont{Noto Serif CJK SC}
 \setCJKsansfont{Noto Sans CJK SC}
@@ -50,19 +50,13 @@
 
 \setdefaultleftmargin{2em}{2em}{1em}{1em}{1em}{1em}
 
-\newcommand{\kaifamily}[0]{\CJKfontspec{FandolKai}}
-
-\title{}
-\author{}
-\date{}
-\pagestyle{plain}
+\pagestyle{empty}
 % =========================================
 
 % =========================================
 % START CORPORATION CONFIG
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{1pt}
-\setlength{\baselineskip}{12pt}
 % END CORPORATION CONFIG
 % =========================================
 
@@ -77,7 +71,7 @@
 % =========================================
 
 
-\linespread{1.1}
+\linespread{1.25}
 
 
 
@@ -86,126 +80,70 @@
 \newcommand{\bondkeyval}[2]{
 	{\small#1} & {\tval{#2}}
 }
-
-
-
-% ==============================================
-% Magic. Do not touch.
-% ==============================================
-\makeatletter
-
-
-\def\makeBondPage{
-\@ifnextchar{[}
-{\@makeBondPage}
-{\@makeBondPage[]}
+\providecommand{\mycellitem}[2]{%
+    \parbox{0.5\textwidth-0.5em}{%
+        \center
+        \Large\ttfamily
+        \vphantom{114514AXjpTh}#2\par\vskip 5pt
+        \hrule\par\vskip 5pt
+        \footnotesize\ttfamily#1
+    }%
 }
 
-\def\@makeBondPage[#1]#2{
-	\setkeys{makeBondPage}{#1}
+
+\newcommand{\makeBondPage}[4]{
+	% argv: batch_code, amount, date_issue, date_mature
 
 	\color{blue!12!black!80!white}
-	\begin{minipage}{\textwidth}
-		\center
+	\begin{center}
+		\Huge\ttfamily\bfseries
+		NERUTHES\\TREASURY\\BOND
+		\vskip 35pt
 
-		\baselineskip=27pt
-		% {\color{blue!12!black!80!white}\Huge\ttfamily\bfseries\fontspec[LetterSpace=6]{Elsie Black}TREASURY\linebreak BOND}
-		{\color{blue!12!black!80!white}\Huge\ttfamily\bfseries\fontspec[LetterSpace=12]{Major Mono Display}treasury\linebreak bond}\par
-		\vspace{15pt}
+		\large\ttfamily\mdseries\color{red}
+		BATCH NO #1
+	\end{center}
+	\vskip 20pt
+	\vfill
 
-		{{\ttfamily\large\color{red}S/N \bond@sn}}
-		% \vspace{10pt}
-
-		% {#1}
-	\end{minipage}
-	\vspace{40pt}
 
 	\rmfamily
 
 	\tabulinesep=11pt
-	% \tabcolsep=0pt
 
-	\begin{minipage}{\linewidth}
-		\center
-
+	\begin{center}
 		\large
 
-		{{\includegraphics[width=42mm]{neruthes-grandseal-core.png}}}
-		\vspace{25pt}
-
-		{\Huge\fontspec{Realtime Rounded}\bfseries NERUTHES}
-		\vspace{20pt}
-
-		\sffamily\normalsize
-		\baselineskip=16pt
+		\rmfamily\normalsize
 		\MakeUppercase{for value received}\par
 		\MakeUppercase{promises to pay to the bearer}\par
-		\MakeUppercase{the sum of}
+		\MakeUppercase{the sum of}\par
+		\Huge\bfseries\ttfamily
+        \vphantom{RMB 114514.00}#2\par
+		\hrule
+	\end{center}
+    \par\vskip 15pt
 
-		\vspace{20pt}
-
-		{\Huge\bfseries\fontspec{Justice}\bond@value}
-
-		{\underline{\hspace{0.4\linewidth}}}
-		\vspace{35pt}
-
-		\sffamily\small
-		\tabcolsep=0pt
-		\tabulinesep=12pt
-		% \fontspec{Erato}
-		\begin{tabu} {lXlX}
-			\hline
-			\bondkeyval{DATE OF ISSUE}{\bond@dateDeal} &
-			\bondkeyval{MATURITY DATE}{\bond@dateMature} \\
-			\hline
-			\bondkeyval{YIELD RATE}{\bond@yieldRate}   &
-			\bondkeyval{CURRENCY}{\bond@currency}                 \\
-			\hline
-		\end{tabu}
-	\end{minipage}
-	\vspace{25pt}
-
-	\sffamily
-	\tabcolsep=5pt
-	\begin{tabu} {X[c]X[c]}
-		{}                             & {}                         \\
-		{}                             & {}                         \\
-		{}                             & {}                         \\
-		% {\hrule} & {\hrule} \\
-		% \hline
-		{\hrule\vspace{5pt} SIGNATURE} & {\hrule\vspace{5pt} STAMP} \\
-	\end{tabu}
-
-
-
-
+    \mycellitem{DATE OF ISSUE}{#3}\hfill%
+    \mycellitem{DATE OF MATURITY}{#4}\par
+    \vskip 10pt
+    \mycellitem{SIGNATURE}{}\hfill%
+    \mycellitem{STAMP}{}\par
 }
 
-\define@key{makeBondPage}{sn}[????]{\def\bond@sn{#1}}
-\define@key{makeBondPage}{value}[????]{\def\bond@value{#1}}
-\define@key{makeBondPage}{dateDeal}[????]{\def\bond@dateDeal{#1}}
-\define@key{makeBondPage}{dateMature}[????]{\def\bond@dateMature{#1}}
-\define@key{makeBondPage}{yieldRate}[????]{\def\bond@yieldRate{#1}}
-\define@key{makeBondPage}{currency}[????]{\def\bond@currency{#1}}
-
-\makeatother
 
 
 
-
-
-
-
-\pagestyle{empty}
-
-
-\AddToShipoutPictureBG*{%
-	\put(1mm,2.7mm){%
-		{\includegraphics[width=\paperwidth-2mm]{neoparia/N-PageBorder.eps}}%
+\AddToShipoutPictureFG{%
+	\put(0.5\paperwidth-15mm,0.5\paperheight-15mm){%
+		\includegraphics[width=30mm]{pic/neruthes-grandseal-core.png}
+	}
+}
+\AddToShipoutPictureBG{%
+	\put(0.5\paperwidth-0.5\paperheight,0mm){%
+		{\includegraphics[width=\paperheight,height=\paperheight]{patterns/_dist/p43.DDDDDD.svg.pdf}}%
 	}%
-}
-\AddToShipoutPictureBG*{%
-	\put(-43.5mm,0mm){%
-		{\includegraphics[width=\paperheight,height=\paperheight]{neoparia/pattern/EP-4-black_20p.png}}%
+	\put(0.5\paperwidth-0.5\paperheight,0mm){%
+		{\includegraphics[width=\paperheight,height=\paperheight]{patterns/_dist/p44.black.svg.pdf}}%
 	}%
 }
