@@ -9,7 +9,7 @@ const massageCurve = function (inputNum, strength) {
     if (inputNum < 0) {
         output *= -1;
     };
-    return output
+    return output;
 };
 const deg2cos = function (deg, density) {
     return Math.cos(density * deg / 360 * 2 * Math.PI);
@@ -45,6 +45,13 @@ for (let deg = 0; deg < 360; deg += 0.8) {
 };
 
 
+// shape_corners
+let shape_corners = ''
+for (let deg = 0; deg < 360; deg += 0.8) {
+    shape_corners += `<ellipse cx="0" cy="${cy}" rx="${rx}" ry="${ry}" stroke="#DEADBF" stroke-width="1.0" transform="rotate(${deg})" />`;
+};
+
+
 
 
 
@@ -61,6 +68,7 @@ console.log(`<svg width="1000" height="auto" viewBox="-800 -800 1600 1600" fill=
     </defs>
     <g mask="url(#outer-boxsize)">
         ${shape_wing1}
+        ${shape_corners}
     </g>
     <rect x="-440" y="-690" width="880" height="1380" fill="none" opacity="1" stroke="#DEADBF" stroke-width="1.00" />
 `.replace(/DEADBF/g, process.env.color));

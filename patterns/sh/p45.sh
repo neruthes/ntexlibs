@@ -6,7 +6,7 @@ function makeitem() {
     svg="_dist/p45.$suffix.svg"
     node js/p45.js > "$svg"
     rsvg-convert "$svg" -z3 -o "$svg.png"
-    # rsvg-convert "$svg" -z2 --format=pdf -o "$svg.pdf"
+    rsvg-convert "$svg" -z2 --format=pdf -o "$svg.pdf"
     realpath "$svg"*
 }
 

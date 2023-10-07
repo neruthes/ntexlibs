@@ -6,41 +6,33 @@ const deg2cos = function (deg, density) {
     return Math.cos(density * deg / 360 * 2 * Math.PI);
 }
 let shape_wing1 = ''
-const STEP = 0.5;
-const dSTEP = 0.015;
+const STEP = 1;
 let index = 0;
-for (let deg = 32.00; deg < 50; deg += STEP) {
-    deg += dSTEP * index;
-    let rx = 60;
-    let ry = 355;
-    let cy = 505;
-    rx += 2.5 * Math.abs(deg - 32.00);
-    ry *= (-Math.abs(Math.pow(Math.abs(deg - 32.00), 1.1)) + 44) / 44;
-
-    cy *= (-Math.abs(Math.pow(Math.abs(deg - 32.00), 1.1)) + 99) / 99;
-    cy += 34 * (-Math.abs(Math.pow(Math.abs(deg - 32.00), 1.1)) + 99) / 99;
+for (let pdeg = -17; pdeg <= 17; pdeg += STEP) {
+    let sx = 1;
+    let sy = 1;
+    let cx = 0;
+    let cy = 200;
+    let tx = 440-100;
+    let ty = 690-100;
+    const MID = -45;
+    const SHIFT = 0 + 0.2 * Math.abs(pdeg);
+    cy += -6 * Math.abs(pdeg);
+    sx += 0.01 * Math.abs(pdeg);
+    tx += pdeg < 0 ? SHIFT * pdeg : -Math.pow(Math.abs(pdeg), 1.6)/Math.pow(17, 1.6) * 30;
+    ty += pdeg > 0 ? -SHIFT * pdeg : -Math.pow(Math.abs(pdeg), 1.6)/Math.pow(17, 1.6) * 30;
+    if (pdeg === 0) {
+        tx += -2;
+        ty += -2;
+    };
     // final
-    rx = Math.floor(rx * 25) / 25;
-    ry = Math.floor(ry * 25) / 25;
-    shape_wing1 += `<ellipse cx="0" cy="${cy}" rx="${rx}" ry="${ry}" stroke="#DEADBF" stroke-width="1.0" transform="rotate(${deg})" />`;
-    index += 1;
-
-};
-index = 0;
-for (let deg = 32.00-STEP; deg > 5; deg -= STEP) {
-    deg -= dSTEP * index;
-    let rx = 60;
-    let ry = 355;
-    let cy = 505;
-    rx += 2.5 * Math.abs(deg - 32.00);
-    ry *= (-Math.abs(Math.pow(Math.abs(deg - 32.00), 0.9)) + 44) / 44;
-
-    cy += 34 * (-Math.abs(Math.pow(Math.abs(deg - 32.00), 1.1)) + 22) / 22;
-    // final
-    rx = Math.floor(rx * 25) / 25;
-    ry = Math.floor(ry * 25) / 25;
-    shape_wing1 += `<ellipse cx="0" cy="${cy}" rx="${rx}" ry="${ry}" stroke="#DEADBF" stroke-width="1.0" transform="rotate(${deg})" />`;
-    index += 1;
+    let realdeg = 0 + MID;
+    realdeg = -4 * pdeg + MID;
+    // realdeg = pdeg * 1 * (1 + Math.pow(Math.abs(pdeg), 1) / Math.pow(35, 1)) + MID;
+    sx = Math.floor(sx * 25) / 25;
+    sy = Math.floor(sy * 25) / 25;
+    // realdeg = Math.floor(realdeg * 25) / 25;
+    shape_wing1 += `<path d="M 0,${cy} q 46,-1 33,-122 M 0,${cy} q -46,-1 -33,-122" stroke="#DEADBF" stroke-width="1.0" transform="translate(${tx},${ty}) rotate(${realdeg}) scale(${sx},${sy})" />`;
 };
 
 
@@ -63,7 +55,7 @@ console.log(`<svg width="1000" height="auto" viewBox="-800 -800 1600 1600" fill=
         <use href="#corner" transform="scale(-1,1)" />
         <use href="#corner" transform="scale(-1,-1)" />
     </g>
-    <rect x="-440" y="-690" width="880" height="1380" fill="white" opacity="0.9" stroke="#DEADBF" stroke-width="1.00" />
+    <rect x="-440" y="-690" width="880" height="1380" fill="none" opacity="0.9" stroke="#DEADBF" stroke-width="1.00" />
 `.replace(/DEADBF/g, process.env.color));
 
 
