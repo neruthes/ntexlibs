@@ -11,5 +11,5 @@ function makeitem() {
 }
 
 makeitem '000000' 'black'
-# makeitem 'EEEEEE' 'EEEEEE'
-# makeitem 'DDDDDD' 'DDDDDD'
+makeitem 'EEEEEE' 'EEEEEE'
+makeitem 'DDDDDD' 'DDDDDD'

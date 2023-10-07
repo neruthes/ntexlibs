@@ -118,11 +118,11 @@ console.log(`<svg width="1000" height="auto" viewBox="-800 -800 1600 1600" fill=
         </mask>
         <mask id="inner-boxsize">
             <rect x="-3000" y="-3000" width="6000" height="6000" fill="black" />
-            <rect x="-424" y="-680" width="848" height="1360" fill="white" />
+            <rect x="-430" y="-680" width="860" height="1360" fill="white" />
         </mask>
         <mask id="outer-boxsize">
             <rect x="-3000" y="-3000" width="6000" height="6000" fill="white" />
-            <rect x="-439" y="-695" width="878" height="1390" fill="black" />
+            <rect x="-440" y="-690" width="880" height="1380" fill="black" />
         </mask>
     </defs>
     <g mask="url(#outer-boxsize)">
@@ -134,8 +134,8 @@ console.log(`<svg width="1000" height="auto" viewBox="-800 -800 1600 1600" fill=
         <rect x="-3000" y="-3000" width="6000" height="6000" fill="#DEADBF" mask="url(#ring2-mask)" />
         <rect x="-3000" y="-3000" width="6000" height="6000" fill="#DEADBF" mask="url(#ring1-mask)" />
     </g>
-    <rect x="-424" y="-680" width="848" height="1360" stroke="#DEADBF" stroke-width="1.00" />
-    <rect x="-439" y="-695" width="878" height="1390" fill="none" opacity="1" stroke="#DEADBF" stroke-width="1.00" />
+    <rect x="-430" y="-680" width="860" height="1360" stroke="#DEADBF" stroke-width="1.00" />
+    <rect x="-440" y="-690" width="880" height="1380" fill="none" opacity="1" stroke="#DEADBF" stroke-width="1.00" />
 `.replace(/DEADBF/g, process.env.color));
 
 

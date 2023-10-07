@@ -1,15 +1,23 @@
-<svg width="600" height="auto" viewBox="-800 -800 1600 1600" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="600" height="auto" viewBox="-200 -200 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
     <defs>
+        <rect id="fc1" x="-10" y="0" width="20" height="40" mask="url(#fc1-mask)" fill="blue" />
+        <mask id="fc1-mask">
+            <circle cx="0" cy="0" r="140" fill="gray" />
+            <use x="0" y="0" href="#fc1-side" transform="scale(1,1)" />
+            <use x="0" y="0" href="#fc1-side" transform="scale(-1,1)" />
+        </mask>
+        <g id="fc1-side">
+            <path d="M 0,0.5 Q 6,7 8.5,26 Q 8.5,34 5.2,38.5 Q 1.5,34 1.5,26
+                Q 1.5,19.25 10,19.25
+                M 1.5,26 Q 1.5,17 4,17 l 0.75,-0.5 Q 0,7 -10,7" stroke="white" stroke-width="1.00" stroke-linejoin="round" />
+        </g>
     </defs>
-    <ellipse cx="0" cy="300" rx="100" ry="340" stroke="blue" stroke-width="1.0" transform="rotate(-22)" />
-    <ellipse cx="0" cy="300" rx="100" ry="350" stroke="blue" stroke-width="1.0" transform="rotate(-24)" />
-    <ellipse cx="0" cy="300" rx="100" ry="360" stroke="blue" stroke-width="1.0" transform="rotate(-26)" />
-    <ellipse cx="0" cy="300" rx="100" ry="370" stroke="blue" stroke-width="1.0" transform="rotate(-28)" />
-
-    <ellipse cx="0" cy="300" rx="100" ry="380" stroke="blue" stroke-width="1.0" transform="rotate(-30)" />
-    
-    <ellipse cx="0" cy="300" rx="100" ry="370" stroke="blue" stroke-width="1.0" transform="rotate(-32)" />
-    <ellipse cx="0" cy="300" rx="100" ry="360" stroke="blue" stroke-width="1.0" transform="rotate(-34)" />
-    <ellipse cx="0" cy="300" rx="100" ry="350" stroke="blue" stroke-width="1.0" transform="rotate(-36)" />
-    <ellipse cx="0" cy="300" rx="100" ry="340" stroke="blue" stroke-width="1.0" transform="rotate(-38)" />
+    <use x="0" y="0" href="#fc1" />
+    <use x="20" y="0" href="#fc1" />
+    <use x="40" y="0" href="#fc1" />
+    <use x="60" y="0" href="#fc1" />
+    <use x="80" y="0" href="#fc1" />
+    <use x="100" y="0" href="#fc1" />
+    <use x="120" y="0" href="#fc1" />
+    <use x="140" y="0" href="#fc1" />
 </svg>
