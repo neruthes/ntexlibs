@@ -46,7 +46,7 @@
 \setCJKmainfont{Noto Sans CJK SC}
 \setCJKromanfont{Noto Serif CJK SC}
 \setCJKsansfont{Noto Sans CJK SC}
-\setCJKmonofont{Noto Sans CJK SC}
+\setCJKmonofont{Noto Serif CJK SC}
 
 \setdefaultleftmargin{2em}{2em}{1em}{1em}{1em}{1em}
 
@@ -119,7 +119,7 @@
 		\MakeUppercase{promises to pay to the bearer}\par
 		\MakeUppercase{the sum of}\par
 		\Huge\bfseries\ttfamily
-        \vphantom{RMB 114514.00}#2\par
+        \vphantom{(USDfjpAHL)114514.00人民币}#2\par
 		\hrule
 	\end{center}
     \par\vskip 15pt
@@ -141,9 +141,12 @@
 }
 \AddToShipoutPictureBG{%
 	\put(0.5\paperwidth-0.5\paperheight,0mm){%
+        % Tile
 		{\includegraphics[width=\paperheight,height=\paperheight]{patterns/_dist/p43.DDDDDD.svg.pdf}}%
 	}%
 	\put(0.5\paperwidth-0.5\paperheight,0mm){%
-		{\includegraphics[width=\paperheight,height=\paperheight]{patterns/_dist/p44.black.svg.pdf}}%
+        % Frame
+		{\includegraphics[width=\paperheight,height=\paperheight]{patterns/_dist/p48.777777.svg.pdf}}%
+		% {\includegraphics[width=\paperheight,height=\paperheight]{patterns/_dist/p46.black.svg.png}}%
 	}%
 }

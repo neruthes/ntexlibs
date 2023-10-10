@@ -3,15 +3,16 @@ let shape_tile1 = ''
 const tile1_linetmpl = ` c 29 0 31 8.25 60 8.25 c 29 0 31 -8.25 60 -8.25 `;
 const maketile1line = function (XX, YY) {
     let strength = 0;
-    let APT = Math.pow((Math.cos(YY / 50 * 2 * Math.PI) + 1) / 2, 0.9);
-    strength += 7.000 * 12 * APT;
+    let APT = Math.pow((Math.cos(YY / 80 * 2 * Math.PI) + 1) / 2, 0.9);
+    strength += 7.000 * 8.20 * APT;
+    strength = 7.000 * 8.20 * 1;
     const major = tile1_linetmpl.replace(/8\.25 /g, strength + ' ').replace(/--/g, '');
     let CX = XX * 120;
     let CY = YY * 7.000;
-    CY += -0.5 * 7.000 * 12 * APT;
+    CY += -0.5 * 7.000 * 8.20 * APT;
     let SX = 1;
-    SX += 0.03 * Math.cos(YY / 50 * 2 * Math.PI);
-    SX *= 2;
+    SX += 0.04 * Math.cos(YY / 160 * 2 * Math.PI);
+    SX *= 3.5;
     return `<path d="M ${CX} ${CY} ${major}" stroke="white" stroke-width="1.00" stroke-linejoin="round" transform="scale(${SX},1)" />`;
 };
 for (let XX = -55; XX <= 55; XX += 1) {
