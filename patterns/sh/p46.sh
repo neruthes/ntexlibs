@@ -7,7 +7,7 @@ function makeitem() {
     node js/p46.js > "$svg"
     rsvg-convert "$svg" -z5 -o "$svg.png"
     rsvg-convert "$svg" -z2 --format=eps -o "$svg.eps"
-    realpath "$svg"*
+    realpath "_dist/p46"*
 }
 
 makeitem '000000' 'black'

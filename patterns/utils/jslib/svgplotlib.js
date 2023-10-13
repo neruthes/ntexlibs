@@ -20,7 +20,7 @@ function drawstar(opt) {
 
 function drawpolarcircle(opt) {
     let myshape_POINTS = [];
-    for (let itr = 0; itr < 360; itr += 1) {
+    for (let itr = 0; itr < 360; itr += opt.step || 1) {
         const theta_rad = itr / 360 * Math.PI * 2;
         const vertexDistance = opt.func(theta_rad);
         const x1 = Math.floor(100 * vertexDistance * Math.sin(theta_rad)) / 100;
