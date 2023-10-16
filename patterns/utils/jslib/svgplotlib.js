@@ -1,3 +1,9 @@
+/*
+    File name: svgplotlib.js
+    Copyright (c) 2023 Neruthes.
+    This file is released with the MIT license.
+*/
+
 function drawstar(opt) {
     let myshape_POINTS = [];
     const VERTEX_QTY = opt.vert;
