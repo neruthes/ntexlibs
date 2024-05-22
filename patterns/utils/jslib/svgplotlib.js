@@ -25,7 +25,6 @@ function drawstar(opt) {
         attrs = Object.keys(new_attr_obj).map(function (attrname) {
             return `  ${attrname}="${new_attr_obj[attrname]}"  `;
         }).join(' ');
-        console.error(attrs);
     } else {
         attrs = Object.keys(DEFAULT_ATTRS).map(function (attrname) {
             return `  ${attrname}="${DEFAULT_ATTRS[attrname]}"  `;
@@ -44,14 +43,25 @@ function drawpolarcircle(opt) {
         const y1 = Math.floor(100 * vertexDistance * Math.cos(theta_rad)) / 100;
         myshape_POINTS.push(x1, y1);
     };
+    const DEFAULT_ATTRS = {
+        'stroke-width': '1.00'
+    };
     let attrs = ''
     if (opt.attrs) {
-        attrs = Object.keys(opt.attrs).map(function (attrname) {
-            return `  ${attrname}="${opt.attrs[attrname]}"  `;
-        }).join(' ');
+        let new_attr_obj = Object.assign({}, DEFAULT_ATTRS, opt.attrs);
+        attrs = flatten_attr_obj(new_attr_obj);
+    } else {
+        attrs = flatten_attr_obj(DEFAULT_ATTRS);
     };
-    let tmpnode = `<polygon ${attrs} stroke-width="1.00" points="${myshape_POINTS.join(' ')}" />`;
+    let tmpnode = `<polygon ${attrs} points="${myshape_POINTS.join(' ')}" />`;
     return tmpnode;
+};
+
+
+function flatten_attr_obj(attr_obj) {
+    return Object.keys(attr_obj).map(function (attrname) {
+        return ` ${attrname}="${attr_obj[attrname]}" `;
+    }).join('');
 };
 
 module.exports = { drawstar, drawpolarcircle };
