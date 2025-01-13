@@ -12,5 +12,13 @@ function makeitem() {
 
 # makeitem '000000' 'black'
 makeitem 'FFFFFF' 'white'
-# makeitem 'EEEEEE' 'EEEEEE'
-# makeitem 'DDDDDD' 'DDDDDD'
+
+magick _dist/p51.white.svg.png -channel RGB -negate _dist/p51.black_null.svg.png
+
+magick _dist/p51.white.svg.png -channel A -negate _dist/p51.invert.svg.png
+
+
+magick -size 4200x4200 xc:black .tmp/black_background.png
+magick composite -geometry +0+0 _dist/p51.white.svg.png .tmp/black_background.png _dist/p51.white_solid.svg.png
+
+
