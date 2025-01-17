@@ -87,7 +87,7 @@ let top_letters = (function () {
     const inner_func = function (letter, index, polarity) {
         const attr_transform = `rotate(${((index - 2) * 2 / 40 * 360 * -polarity)})`;
         const shared_attrs = `x="0" y="${(420 * polarity + 27)}"
-            font-size="78" font-family="CMU Serif" text-anchor="middle"
+            font-size="78" font-family="Noto Sans Display" text-anchor="middle"
             stroke-linejoin="round"
             transform="${attr_transform} scale(0.85,1)"`;
         beams_mask_inner += `<path d="M 0,${360 * polarity} l 0,${120 * polarity}"

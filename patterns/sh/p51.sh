@@ -6,7 +6,6 @@ function makeitem() {
     svg="_dist/p51.$suffix.svg"
     node js/p51.js > "$svg"
     rsvg-convert "$svg" -z6 -o "$svg.png"
-    # rsvg-convert "$svg" -z2 --format=pdf -o "$svg.pdf" # Really necessary?
     realpath "$svg"*
 }
 
@@ -15,7 +14,7 @@ makeitem 'FFFFFF' 'white'
 
 magick _dist/p51.white.svg.png -channel RGB -negate _dist/p51.black_null.svg.png
 
-magick _dist/p51.white.svg.png -channel A -negate _dist/p51.invert.svg.png
+magick _dist/p51.white.svg.png -channel A -negate -threshold 99.99% _dist/p51.invert.svg.png
 
 
 magick -size 4200x4200 xc:black .tmp/black_background.png
