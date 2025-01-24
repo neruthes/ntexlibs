@@ -1,12 +1,12 @@
 /*
     File name: svgplotlib.js
-    Copyright (c) 2023-2024 Neruthes.
+    Copyright (c) 2023-2025 Neruthes.
     This file is released with the MIT license.
 */
 
 function drawstar(opt) {
     let myshape_POINTS = [];
-    const VERTEX_QTY = opt.vert;
+    const VERTEX_QTY = opt.vert || 12;
     for (let itr = 0; itr < VERTEX_QTY; itr += 1) {
         const vertexDistance = (itr % 2 === 0) ? opt.long : opt.short;
         const theta_rad = Math.PI * 2 / VERTEX_QTY * itr;
@@ -53,9 +53,21 @@ function drawpolarcircle(opt) {
     } else {
         attrs = flatten_attr_obj(DEFAULT_ATTRS);
     };
-    let tmpnode = `<polygon ${attrs} points="${myshape_POINTS.join(' ')}" />`;
+    // let tmpnode = `<polygon ${attrs} points="${myshape_POINTS.join(' ')}" />`;
+    let tmpnode = `<polygon ${attrs} points="${_join_points(myshape_POINTS)}" />`;
     return tmpnode;
 };
+
+function _join_points(data_arr) {
+    let counter = 0;
+    let tmpstr = '';
+    while (counter < data_arr.length) {
+        const separator = (counter % 100 === 0) ? '\n' : ' ';
+        tmpstr += data_arr[counter] + separator;
+        counter += 1;
+    };
+    return tmpstr;
+}
 
 
 function flatten_attr_obj(attr_obj) {
