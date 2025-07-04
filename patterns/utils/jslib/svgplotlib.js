@@ -17,7 +17,7 @@ function drawstar(opt) {
     const DEFAULT_ATTRS = {
         'stroke-width': '1.00'
     };
-    let attrs = ''
+    let attrs = '';
     if (opt.attrs) {
         let new_attr_obj = {};
         Object.keys(DEFAULT_ATTRS).map(function (attrname) { new_attr_obj[attrname] = DEFAULT_ATTRS[attrname] }); // Initialize content
@@ -46,7 +46,7 @@ function drawpolarcircle(opt) {
     const DEFAULT_ATTRS = {
         'stroke-width': '1.00'
     };
-    let attrs = ''
+    let attrs = '';
     if (opt.attrs) {
         let new_attr_obj = Object.assign({}, DEFAULT_ATTRS, opt.attrs);
         attrs = flatten_attr_obj(new_attr_obj);
