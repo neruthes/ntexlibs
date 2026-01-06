@@ -27,9 +27,9 @@
 \usepackage{graphicx,eso-pic}
 
 % Optional fonts: Libertinus Serif, Tinos, Literata
-\setmainfont{Libertinus Serif}
-\setromanfont{Libertinus Serif}
-\setsansfont{Seravek}
+\setmainfont{TeX Gyre Termes}
+\setromanfont{TeX Gyre Termes}
+\setsansfont{Myriad Pro}
 \setmonofont{JetBrains Mono NL}
 \setCJKmainfont{Noto Serif CJK SC}
 \setCJKromanfont{Noto Serif CJK SC}
@@ -62,7 +62,7 @@
 \setlength{\parskip}{8pt}
 
 \input{/home/neruthes/DEV/ntexlibs/lib/_common.tex}
-\input{/home/neruthes/DEV/ntexlibs/lib/_fontsets.tex}
+% \input{/home/neruthes/DEV/ntexlibs/lib/_fontsets.tex}
 
 
 \setlength{\headheight}{30mm}
@@ -95,10 +95,11 @@
 \newcommand{\recipientaddress}[1]{
     % $1=content
     \noindent\begin{minipage}{\linewidth}
-        \fontspec[Ligatures=TeX]{Myriad Pro}
+        \sffamily
+        % \fontspec[Ligatures=TeX]{Myriad Pro}
         \mdseries
         \small
-        \raggedright
+        \raggedright\sloppy
         #1
     \end{minipage}\par
     \noindent\rule{0.618\linewidth}{0.4pt}\par
